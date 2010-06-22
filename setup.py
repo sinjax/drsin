@@ -16,7 +16,7 @@ setup(
         "Pylons>=0.9.7",
         "SQLAlchemy>=0.5",
     ],
-    setup_requires=["PasteScript>=1.6.3"],
+    setup_requires=["PasteScript>=1.6.3","textile>=2.1.4"],
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,
     test_suite='nose.collector',
