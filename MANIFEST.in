@@ -1,0 +1,3 @@
+include drsin/config/deployment.ini_tmpl
+recursive-include drsin/public *
+recursive-include drsin/templates *
