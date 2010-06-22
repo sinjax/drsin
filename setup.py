@@ -15,7 +15,8 @@ setup(
     install_requires=[
 		"Pylons>=0.9.7",
 		"SQLAlchemy>=0.5",
-		"textile>=2.1.4"
+		"textile>=2.1.4",
+		"FormBuild>=2.2.0"
     ],
     setup_requires=["PasteScript>=1.6.3"],
     packages=find_packages(exclude=['ez_setup']),
