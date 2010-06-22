@@ -8,7 +8,7 @@ from webhelpers.html.tags import checkbox, password
 from textile import Textile
 t = Textile(lite=True)
 from routes import *
-from yourgoblin.lib.flash import *
+from drsin.lib.flash import *
 from formbuild import start_with_layout as form_start, end_with_layout as form_end
 from formbuild import *
 
