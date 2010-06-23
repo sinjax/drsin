@@ -1,7 +1,8 @@
 body { 
-	background-color: #CDB899; 
+	background-color: ${config['pallett.one']}; 
 	font-family: Cambria, Georgia, 'Times New Roman', serif;
 	width:100%;
+	height:100%;
 	padding:0;
 	margin:0;
 }
@@ -33,7 +34,10 @@ h3{
 	font-weight:normal;
 	font-size: 10pt;
 	width:100%;	
-	border-bottom:4px dotted #542E1E;
+	padding:0;
+	margin:0;
+	border-bottom:1px solid ${config['pallett.two']};
+	border-top:1px solid ${config['pallett.three']};
 }
 
 a{
@@ -65,7 +69,6 @@ img{
 #menu{
 	width:200px;
 	float:left;
-	height:100%;
 }
 
 .structure{
@@ -104,3 +107,7 @@ img{
 	font-size:14pt;
 }
 
+/*Post*/
+.post{
+	border-bottom:1px solid ${config['pallett.three']};
+}
