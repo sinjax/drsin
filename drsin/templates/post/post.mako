@@ -1,5 +1,8 @@
-
+% if not c.post_list:
+<div class="post post_solo" id="post_${c.post.id}">
+%else:
 <div class="post" id="post_${c.post.id}">
+%endif
 	<h2 class="post_title">
 		<a href="${h.url_for(controller='post',action='show',id=c.post.id)}">${c.post.title}</a>
 		<a href="${h.url_for(controller='post',action='show',id=c.post.id)}" title="permalink" alt="permalink"><img src="/graphics/link.png"/></a>
@@ -39,7 +42,7 @@
 		<img src="/graphics/cats.png"/><a href="${h.url_for(controller='category',action='show',category=c.post.category.category)}">${c.post.category.category}</a>
 	</div>
 	<div class="post_meta post_comments">
-		<img src="/graphics/comments.png"/><span>${len([x for x in c.post.comments if (x.ham/x.spam) > 1])} Comments</span>
+		<img src="/graphics/comments.png"/><a href="${h.url_for(controller='post',action='show',id=c.post.id)}"><span>${len(c.post.comments)} Comments</span></a>
 	</div>
 	
 	<div class="post_meta post_keywords">
@@ -57,4 +60,7 @@
 		% endif
 	</div>
 	</div>
+	% if not c.post_list:
+	<%include file="/comment/show.mako"/>
+	% endif
 </div>

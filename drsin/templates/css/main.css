@@ -82,6 +82,9 @@ img{
 	margin:0;
 	margin: 0 1em 0 0;
 }
+.clearer{
+	clear:both;
+}
 
 #menu .structure {
 	font-size:8pt;
@@ -120,6 +123,9 @@ img{
 	width:100%;
 	margin-bottom:1em;
 }
+.post_solo{
+	border:none;
+}
 .post_title{
 }
 .post_content{
@@ -147,4 +153,26 @@ img{
 .post_meta_area{
 	clear:right;
 	float:left;
+}
+
+/*Comments*/
+.comment_date{
+	display:block;
+	font-size: 8pt;
+	color:${config['pallett.two']};
+}
+.post_comments{
+	padding-top:1em;
+	width:100%;
+}
+.post_comment{
+	border-bottom:1px solid ${config['pallett.three']};
+	margin-bottom:1em;
+	margin-top:1em;
+}
+.comment_create input,.comment_create textarea{
+	width:100%;
+}
+.comment_create textarea{
+	height:5em;
 }

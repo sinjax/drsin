@@ -15,6 +15,7 @@ class PostController(BaseController):
 	
 	def show(self,id=None,isolated=False):
 		c.post = model.Post.query.filter_by(id=id).first()
+		# c.post.comments = [x for x in c.post.comments if (x.ham/x.spam) > 1]
 		if isolated :
 			return render("/post/post.mako")
 		else:
@@ -23,6 +24,7 @@ class PostController(BaseController):
 	def list(self):
 		c.posts = model.Post.query.order_by(model.desc(model.Post.date))
 		c.posts = c.posts.all()[:4]
+		c.post_list = True
 		return render("/post/list.mako")
 	
 	@rest.dispatch_on(POST='save')
@@ -43,7 +45,6 @@ class PostController(BaseController):
 	
 	@rest.restrict('POST')
 	def save(self):
-		print "Saving!"
 		edit = model.Post.query.filter_by(id=request.params['id']).first()
 		print edit
 		if(edit == None):
