@@ -1,5 +1,5 @@
 
-<div id="post_${c.post.id}">
+<div class="post" id="post_${c.post.id}">
 	<h2 class="post_title">
 		<a href="${h.url_for(controller='post',action='show',id=c.post.id)}">${c.post.title}</a>
 	</h2>

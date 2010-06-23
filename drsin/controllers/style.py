@@ -11,7 +11,8 @@ log = logging.getLogger(__name__)
 class StyleController(BaseController):
 	
 	def index(self):
-		return redirect_to("/css/main.css")
+		response.headers['content-type'] = 'text/css; charset=utf-8'
+		return render("/css/main.css")
 	
 	def face(self):
 		return redirect_to("/graphics/face.png")
