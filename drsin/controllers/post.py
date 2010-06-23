@@ -68,9 +68,3 @@ class PostController(BaseController):
 		model.Session.commit()
 		return
 	
-	def categories(self):
-		allCats = ",".join([c.category for c in model.Category.query.all()])
-		return allCats
-	def keywords(self):
-		allKeys = ",".join([c.keyword for c in model.Keyword.query.all()])
-		return allKeys

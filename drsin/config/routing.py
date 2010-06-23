@@ -20,10 +20,12 @@ def make_map():
 	# CUSTOM ROUTES HERE
 	map.connect('/',controller="post",action="list")
 	map.connect('/post/show/{id}.{isolated}',controller="post",action="show")
+	map.connect('/category/show/{category}',controller="category",action="show",category="")
+	map.connect('/tags/show/{keyword}',controller="tags",action="show",keyword="")
 	map.connect('/{controller}/{action}/{id}')
 	map.connect('/logout',controller="auth",action="logout")
 	map.connect('/login',controller="auth",action="login")
-	map.connect('/categories',controller="post",action="categories")
-	map.connect('/keywords',controller="post",action="keywords")
+	map.connect('/categories',controller="category",action="list")
+	map.connect('/keywords',controller="tags",action="list")
 
 	return map
