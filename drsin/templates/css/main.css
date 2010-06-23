@@ -15,7 +15,6 @@ body {
 	padding:0;
 	margin:0;
 	clear:both;
-	
 }
 #topbar>p,#bottombar>p{
 	margin:auto;
@@ -110,4 +109,35 @@ img{
 /*Post*/
 .post{
 	border-bottom:1px solid ${config['pallett.three']};
+	float:left;
+	width:100%;
+	margin-bottom:1em;
+}
+.post_title{
+}
+.post_content{
+	clear:both;
+}
+.post_meta{
+	float:left;
+	margin:0;
+	padding:0;
+	padding-left:2px;
+	color:${config['pallett.two']};
+	font-size:8pt;
+}
+.post_meta span{
+	padding-left:2px;
+}
+.post_meta img{
+}
+.post_comments{
+	clear:left;
+}
+.post_keywords{
+	clear:both;
+}
+.post_meta_area{
+	clear:right;
+	float:left;
 }
