@@ -5,6 +5,7 @@ from pylons.controllers.util import abort, redirect_to
 
 from drsin.lib.base import BaseController, render
 from drsin.controllers import *
+from drsin.controllers import post
 log = logging.getLogger(__name__)
 
 import urllib, hashlib
@@ -26,12 +27,25 @@ class CommentController(BaseController):
 		return render("/comment/create.mako")
 		pass
 	
+	# @validate(schema=CommentSchema(),form=post.show)
 	def save(self):
+		schema = CommentSchema()
+		form_result = None
+		try:
+			form_result = schema.to_python(request.params)
+		except formencode.validators.Invalid, error:
+			c.form_result = error.value
+			c.form_errors = error.error_dict or {}
+			print "THE ERRORS",error.error_dict 
+			print c.form_result
+			c.post = model.Post.query.filter_by(id=request.params['postid']).first()
+			return render("/post/show.mako")
 		comment = model.Comment()
-		comment.author = request.params['author']
-		comment.email = request.params['email']
-		comment.website = request.params['website']
-		comment.content = request.params['content']
+		print "THE RESULTS:",form_result
+		comment.author = form_result.get('author')
+		comment.email = form_result.get('email')
+		comment.url = form_result.get('website')
+		comment.content = form_result.get('content')
 		comment.posts = model.Post.get_by(id=request.params['postid'])
 		comment.ham = 0.9
 		comment.spam = 0.1

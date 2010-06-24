@@ -176,3 +176,7 @@ img{
 .comment_create textarea{
 	height:5em;
 }
+
+.form_error{
+	color:red;
+}
