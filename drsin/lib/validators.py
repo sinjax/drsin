@@ -3,7 +3,15 @@ from formencode import validators as v
 from formencode import compound as cm
 from datetime import date, timedelta
 import formencode.variabledecode as fvd
+from pylons import session
 
+def CATCHAValidator(catcha):
+	"""
+	Create a new CATCHAValidator. 
+	This only works if the session contains a CATCHA instance.
+	This CATCHA instance is removed whether successful or not!
+	"""
+	pass
 
 class PasswordChangeSchema(formencode.Schema):
 	allow_extra_fields = True

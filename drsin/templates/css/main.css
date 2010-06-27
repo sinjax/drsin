@@ -139,12 +139,16 @@ img{
 	color:${config['pallett.two']};
 	font-size:8pt;
 }
+.post_meta a{
+	color:${config['pallett.three']};
+	font-weight: normal;
+}
 .post_meta span{
 	padding-left:2px;
 }
 .post_meta img{
 }
-.post_comments{
+.post_comments_link{
 	clear:left;
 }
 .post_keywords{
@@ -164,6 +168,7 @@ img{
 .post_comments{
 	padding-top:1em;
 	width:100%;
+	clear:left;
 }
 .post_comment{
 	border-bottom:1px solid ${config['pallett.three']};
