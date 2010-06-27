@@ -41,7 +41,7 @@
 	<div class="post_meta post_category">
 		<img src="/graphics/cats.png"/><a href="${h.url_for(controller='category',action='show',category=c.post.category.category)}">${c.post.category.category}</a>
 	</div>
-	<div class="post_meta post_comments">
+	<div class="post_meta post_comments_link">
 		<img src="/graphics/comments.png"/><a href="${h.url_for(controller='post',action='show',id=c.post.id)}"><span>${len(c.post.comments)} Comments</span></a>
 	</div>
 	
