@@ -28,7 +28,7 @@
 	<h3><strong>things</strong> <em>talked about...</em></h3>
 	<ul class="tagcloud">
 	% for cat in c.cats:
-	<li worth="${len(cat.posts)}"><a href="${h.url_for(controller='category',action='show',category=cat.category)}">${cat.category}</li>
+	<li worth="${len(cat.posts)}"><a href="${h.url_for(controller='category',action='show',category=cat.category)}">${cat.category}</a></li>
 	% endfor
 	</ul>
 </div>
