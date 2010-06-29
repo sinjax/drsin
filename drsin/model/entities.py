@@ -5,6 +5,7 @@ class Category(Entity):
 	category = Field(Unicode(30))
 	parent = ManyToOne('Category')
 	children = OneToMany('Category')
+	posts = OneToMany('Post')
 
 _defaultCategory = None
 def getDefaultCategory():
@@ -37,7 +38,7 @@ class Post(Entity):
 	date = Field(DateTime,default=func.now())
 	content = Field(UnicodeText)
 	keywords = ManyToMany('Keyword')
-	category = ManyToOne('Category',colname="",column_kwargs={
+	category = ManyToOne('Category',column_kwargs={
 		"default":getDefaultCategory
 	})
 	comments = OneToMany('Comment',filter=commentFilter)
