@@ -11,6 +11,8 @@
 		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushBash.js"></script>
 		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushJava.js"></script>
 		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushGroovy.js"></script>
+		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushXml.js"></script>
+		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushCss.js"></script>
 		
 		
 
