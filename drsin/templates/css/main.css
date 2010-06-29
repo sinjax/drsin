@@ -32,7 +32,7 @@ a{
 	color:white;
 	font-size:10pt;
 }
-pre{
+.syntaxhighlighter{
 	overflow:hidden;
 }
 h1{
