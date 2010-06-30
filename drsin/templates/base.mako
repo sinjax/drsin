@@ -2,7 +2,7 @@
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<title>Dr SinJax entertains Magical Thoughts</title>
-		<link type="text/css" rel="stylesheet" href="${h.url_for(controller='style')}"/> 
+		
 		
 		
 		<script type="text/javascript" src="/js/syntaxhighlighter/shCore.js"></script>
@@ -11,6 +11,8 @@
 		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushBash.js"></script>
 		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushJava.js"></script>
 		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushGroovy.js"></script>
+		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushXml.js"></script>
+		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushCss.js"></script>
 		
 		
 
@@ -18,8 +20,8 @@
 		<!-- <link rel="stylesheet" href="/css/autocomplete/demo/main.css" type="text/css" /> -->
 		<link rel="stylesheet" href="/css/autocomplete/jquery.autocomplete.css" type="text/css" />
 		<link href="/css/syntaxhighlighter/shCore.css" rel="stylesheet" type="text/css" />
-		<link type="text/css" rel="Stylesheet" href="/css/syntaxhighlighter/shThemeMidnight.css"/>
-		
+		<link type="text/css" rel="Stylesheet" href="/css/syntaxhighlighter/shThemeDjango.css"/>
+		<link type="text/css" rel="stylesheet" href="${h.url_for(controller='style')}"/> 
 		<script src="/js/jquery-1.4.2.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="/js/autocomplete/lib/jquery.bgiframe.min.js"></script>
 		<script type="text/javascript" src="/js/autocomplete/lib/jquery.dimensions.js"></script>
@@ -124,6 +126,7 @@
 						<li><strong><a href="http://facebook.com/sinjax">Facebook</a></strong></li>
 					</ul>
 				</div>
+				<%include file="/sidebar/tagcloud.mako"/>
 			</div>
 			
 		</div>

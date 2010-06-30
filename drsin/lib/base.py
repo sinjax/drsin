@@ -21,6 +21,10 @@ class BaseController(WSGIController):
 	controller_allowed_actions = []
 	def __call__(self, environ, start_response):
 		try:
+			c.cats = model.Category.query.filter(model.and_(
+				model.Category.category!="Default",
+				model.Category.category!="Uncategorized"
+			)).all()
 			return WSGIController.__call__(self, environ, start_response)
 		finally:
 			model.Session.remove()
