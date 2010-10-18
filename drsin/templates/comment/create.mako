@@ -13,6 +13,8 @@ formOptions = {
 if not c.form_result:
 	c.form_result = {}
 %>
+<p>comments switched <strong>off</strong> 'til I sort out the spam filter</p>
+<%doc>
 ${h.form(h.url_for(controller="comment",action="create"),**formOptions)}
 	${h.hidden("postid",value=c.post.id)}
 	<p>
@@ -47,3 +49,4 @@ ${h.form(h.url_for(controller="comment",action="create"),**formOptions)}
 	</p>
 	<p><input type="submit" value="Submit"></p>
 ${h.end_form()}
+</%doc>

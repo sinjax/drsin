@@ -5,6 +5,7 @@ body {
 	height:100%;
 	padding:0;
 	margin:0;
+	text-align: center; /* for IE */
 }
 
 a{
@@ -22,14 +23,16 @@ a{
 	background:${config['pallett.five']};
 	padding:0;
 	margin:0;
+	padding-left:10px;
 	clear:both;
+	text-align: left; /* for IE */
+	color:${config['pallett.four']};
 }
 #topbar>p,#bottombar>p{
 	margin:auto;
 	padding-left:6em;
 	padding-top:0.5em;
 	padding-bottom:0.5em;
-	color:white;
 	font-size:10pt;
 }
 .syntaxhighlighter{
@@ -69,6 +72,7 @@ img{
 	margin:0 auto;
 	padding:0;
 	width:980px;
+	text-align: left; /* for IE */
 }
 
 #content{

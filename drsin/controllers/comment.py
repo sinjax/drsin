@@ -29,6 +29,7 @@ class CommentController(BaseController):
 	
 	# @validate(schema=CommentSchema(),form=post.show)
 	def save(self):
+		return
 		schema = CommentSchema()
 		form_result = None
 		try:
