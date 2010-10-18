@@ -1,4 +1,4 @@
-<div class="post_comments">
+<%doc><div class="post_comments">
 	<div class="header">
 		<h3><strong>heres</strong> <em>what others thought...</em></h3>
 	</div>
@@ -21,3 +21,4 @@
 % endif
 <%include file="/comment/create.mako"/>
 </div>
+</%doc>
