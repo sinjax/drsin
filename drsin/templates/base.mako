@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="google-site-verification" content="PK9dkrkE3iMUwE8l8B2akGIs4ZG82OXiBI5qyCMD2fw" />
 		<title>Dr SinJax entertains Magical Thoughts</title>
 		
 		
