@@ -7,7 +7,7 @@ available to Controllers. This module is available to templates as 'h'.
 from webhelpers.html.tags import checkbox, password
 from textile import Textile
 t = Textile(lite=True)
-from routes import *
+from routes import url_for
 from drsin.lib.flash import *
 from formbuild import start_with_layout as form_start, end_with_layout as form_end
 from formbuild import *
