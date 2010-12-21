@@ -29,7 +29,7 @@
 		<script type="text/javascript" src="/js/autocomplete/jquery.autocomplete.js"></script>
 		<script type="text/javascript" charset="utf-8">
 			$(document).ready(function () {
-				$.get('${h.url_for("style",action="recentPubs")}', function(data) {
+				$.get('${h.url_for(controller="style",action="recentPubs")}', function(data) {
 				  $('#recentPubs').html(data);
 				});
 				$("pre").each(function (thing,actual) {
