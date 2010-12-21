@@ -99,11 +99,11 @@
 						birthday=4.0/12.0
 						age=int((now.year+(now.month/12.0))-(1984+birthday))
 						%>
-						Sina is a ${age} year old computer scientist PhD. He is a part of the 
+						Sina is a ${age} year old computer scientist, PhD survivor. He is a part of the 
 						<a href="http://www.iam.ecs.soton.ac.uk">IAM research group</a> of 
 						the <a href="http://ecs.soton.ac.uk">School of Electronics and Computer Science</a> 
 						at the  <a href="http://www.soton.ac.uk">University of Southampton</a>. 
-						He did his PhD with the <a href="http://www.iam.ecs.soton.ac.uk">ISIS research group</a> with
+						He did his PhD in the <a href="http://www.iam.ecs.soton.ac.uk">ISIS research group</a> with
 						<a href="http://www.ecs.soton.ac.uk/~msn">Prof. Mark S. Nixon</a> on <a href="http://eprints.ecs.soton.ac.uk/20895/">Semantic Biometric</a>.
 						Sina's research interests include computer vision, machine learning, biometrics, semantic annotations and human annotation (both of and by). 
 						He likes programming (lots of kinds), 
