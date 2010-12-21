@@ -23,11 +23,10 @@ def make_map():
 	map.connect('/gravatar/{email}',controller="comment",action="gravatar",email="")
 	map.connect('/category/show/{category}',controller="category",action="show",category="")
 	map.connect('/tags/show/{keyword}',controller="tags",action="show",keyword="")
-	map.connect('/{controller}/{action}/{id}')
+	map.connect('/{controller}/{action}/{id}',controller="post",action="list",id=None)
 	map.connect('/logout',controller="auth",action="logout")
 	map.connect('/login',controller="auth",action="login")
 	map.connect('/categories',controller="category",action="list")
 	map.connect('/keywords',controller="tags",action="list")
-	map.connect('/style',controller="style",action="index")
 
 	return map
