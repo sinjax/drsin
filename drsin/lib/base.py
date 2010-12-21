@@ -3,7 +3,7 @@
 Provides the BaseController class for subclassing.
 """
 from pylons.controllers import WSGIController
-from pylons.controllers.util import abort, redirect_to
+from pylons.controllers.util import abort, redirect as redirect_to
 from pylons.templating import render_mako as render
 from pylons.decorators import rest,validate
 from pylons import request, response, session, tmpl_context as c
