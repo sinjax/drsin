@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="/css/autocomplete/jquery.autocomplete.css" type="text/css" />
 		<link href="/css/syntaxhighlighter/shCore.css" rel="stylesheet" type="text/css" />
 		<link type="text/css" rel="Stylesheet" href="/css/syntaxhighlighter/shThemeDjango.css"/>
-		<link type="text/css" rel="stylesheet" href="${h.url_for(controller='style')}"/> 
+		<link type="text/css" rel="stylesheet" href="${h.url_for('style')}"/> 
 		<script src="/js/jquery-1.4.2.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="/js/autocomplete/lib/jquery.bgiframe.min.js"></script>
 		<script type="text/javascript" src="/js/autocomplete/lib/jquery.dimensions.js"></script>
