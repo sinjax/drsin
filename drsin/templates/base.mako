@@ -91,7 +91,7 @@
 			<div id="menu" class="structure">
 				<div class="structure">
 					<h3><strong>with</strong> <em> plenty of ego...</em></h3>
-					<img src="${h.url_for('style',action='face')}"/>
+					<img src="${h.url_for(controller='style',action='face')}"/>
 					<p>
 						<%
 						import datetime
