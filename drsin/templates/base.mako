@@ -29,7 +29,7 @@
 		<script type="text/javascript" src="/js/autocomplete/jquery.autocomplete.js"></script>
 		<script type="text/javascript" charset="utf-8">
 			$(document).ready(function () {
-				$.get('${h.url_for(controller="style",action="recentPubs")}', function(data) {
+				$.get('${h.url_for("style",action="recentPubs")}', function(data) {
 				  $('#recentPubs').html(data);
 				});
 				$("pre").each(function (thing,actual) {
@@ -91,7 +91,7 @@
 			<div id="menu" class="structure">
 				<div class="structure">
 					<h3><strong>with</strong> <em> plenty of ego...</em></h3>
-					<img src="${h.url_for(controller='style',action='face')}"/>
+					<img src="${h.url_for('style',action='face')}"/>
 					<p>
 						<%
 						import datetime
