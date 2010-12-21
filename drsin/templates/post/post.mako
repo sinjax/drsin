@@ -1,4 +1,4 @@
-% if not c.post_list:
+% if not hasattr(c,"post_list") or not c.post_list:
 <div class="post post_solo" id="post_${c.post.id}">
 %else:
 <div class="post" id="post_${c.post.id}">
@@ -60,7 +60,7 @@
 		% endif
 	</div>
 	</div>
-	% if not c.post_list:
+	% if not hasattr(c,"post_list") or not c.post_list:
 	<%include file="/comment/show.mako"/>
 	% endif
 </div>
