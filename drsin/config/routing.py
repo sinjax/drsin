@@ -28,5 +28,6 @@ def make_map():
 	map.connect('/login',controller="auth",action="login")
 	map.connect('/categories',controller="category",action="list")
 	map.connect('/keywords',controller="tags",action="list")
+	map.connect('/style',controller="style",action="index")
 
 	return map
