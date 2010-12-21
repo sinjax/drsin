@@ -18,7 +18,8 @@ def make_map():
 	map.connect('/error/{action}/{id}', controller='error')
 
 	# CUSTOM ROUTES HERE
-	map.connect('/{controller}/{action}/{id}',controller="post",action="list",id=None)
+	map.connect('/{controller}/{action}/{id}',controller="post",action="index",id=None)
+	map.connect('/',controller="post",action="list")
 	map.connect('/post/show/{id}.{isolated}',controller="post",action="show")
 	map.connect('/gravatar/{email}',controller="comment",action="gravatar",email="")
 	map.connect('/category/show/{category}',controller="category",action="show",category="")
