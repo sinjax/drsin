@@ -14,6 +14,7 @@
 		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushGroovy.js"></script>
 		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushXml.js"></script>
 		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushCss.js"></script>
+		<script type="text/javascript" src="/js/syntaxhighlighter/shBrushPlain.js"></script>
 		
 		
 
