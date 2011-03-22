@@ -4,11 +4,12 @@ from pylons import request, response, session, tmpl_context as c
 import datetime
 from drsin.controllers import *
 from drsin.lib.base import *
+import PyRSS2Gen
 log = logging.getLogger(__name__)
 
 class PostController(BaseController):
 	controller_require_perm = True
-	controller_allowed_actions = ["index","show","list"]
+	controller_allowed_actions = ["index","show","list","rss"]
 	def index(self):
 		return self.show()
 	
@@ -67,4 +68,13 @@ class PostController(BaseController):
 		edit.keywords = keywords
 		model.Session.commit()
 		return
+	def rss(self):
+		nposts = model.Post.query.order_by(model.desc(model.Post.date)).all()[:4]
+		rss = PyRSS2Gen.RSS2(
+			title = "Dr. Sina Samangooei - MagicalThinking",
+			link = "http://sinjax.net",
+			description = "The latest blog posts from Dr. Sina Samangooei, an engineer trapped in an academic's body",
+			lastBuildDate = datetime.datetime.utcnow(),
+			items = model.postRSS(nposts))
+		return rss.to_xml()	
 	

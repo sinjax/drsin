@@ -1,6 +1,7 @@
 from elixir import *
 from sqlalchemy.sql.expression import *
 from sqlalchemy.orm.properties import CompositeProperty
+import PyRSS2Gen
 class Category(Entity):
 	category = Field(Unicode(30))
 	parent = ManyToOne('Category')
@@ -42,6 +43,18 @@ class Post(Entity):
 		"default":getDefaultCategory
 	})
 	comments = OneToMany('Comment',filter=commentFilter)
+
+def postRSS(posts):
+	items = []
+	for post in posts:
+		item = PyRSS2Gen.RSSItem(
+			title = post.title,
+			link = "http://www.sinjax.net/post/show/" + str(post.id),
+			description = ",".join([k.keyword for k in post.keywords]),
+			guid = PyRSS2Gen.Guid("http://www.sinjax.net/post/show/" + str(post.id)),
+			pubDate = post.date)
+		items.append(item)
+	return items
 
 class Keyword(Entity):
 	keyword = Field(Unicode(30))
