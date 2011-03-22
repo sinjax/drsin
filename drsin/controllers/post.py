@@ -71,7 +71,8 @@ class PostController(BaseController):
 	def rss(self):
 		nposts = model.Post.query.order_by(model.desc(model.Post.date)).all()[:4]
 		rss = PyRSS2Gen.RSS2(
-			title = "Dr. Sina Samangooei - MagicalThinking",
+			title = "MagicalThinking",
+			author = "Dr. Sina Samangooei",
 			link = "http://sinjax.net",
 			description = "The latest blog posts from Dr. Sina Samangooei, an engineer trapped in an academic's body",
 			lastBuildDate = datetime.datetime.utcnow(),
