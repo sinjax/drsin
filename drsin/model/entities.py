@@ -2,6 +2,7 @@ from elixir import *
 from sqlalchemy.sql.expression import *
 from sqlalchemy.orm.properties import CompositeProperty
 import PyRSS2Gen
+import drsin.lib.helpers as h
 class Category(Entity):
 	category = Field(Unicode(30))
 	parent = ManyToOne('Category')
@@ -50,7 +51,7 @@ def postRSS(posts):
 		item = PyRSS2Gen.RSSItem(
 			title = post.title,
 			link = "http://www.sinjax.net/post/show/" + str(post.id),
-			description = ",".join([k.keyword for k in post.keywords]),
+			description = h.textile(" ".join([k for k in post.content.split(" ")][:100]) + "... "),
 			guid = PyRSS2Gen.Guid("http://www.sinjax.net/post/show/" + str(post.id)),
 			pubDate = post.date)
 		items.append(item)
