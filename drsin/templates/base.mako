@@ -24,6 +24,7 @@
 		<link href="/css/syntaxhighlighter/shCore.css" rel="stylesheet" type="text/css" />
 		<link type="text/css" rel="Stylesheet" href="/css/syntaxhighlighter/shThemeDjango.css"/>
 		<link type="text/css" rel="stylesheet" href="${h.url_for(controller='style')}"/> 
+		<link href="${h.url_for(controller='post',action='rss')}" rel="alternate" type="application/rss+xml" title="MagicalThinking" />
 		<script src="/js/jquery-1.4.2.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="/js/autocomplete/lib/jquery.bgiframe.min.js"></script>
 		<script type="text/javascript" src="/js/autocomplete/lib/jquery.dimensions.js"></script>
