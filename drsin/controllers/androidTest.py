@@ -4,7 +4,6 @@ from pylons import request, response, session, tmpl_context as c
 from pylons.controllers.util import abort, redirect_to
 
 from drsin.lib.base import BaseController, render
-import httpagentparser
 
 log = logging.getLogger(__name__)
 
