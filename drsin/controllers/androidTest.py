@@ -10,6 +10,7 @@ log = logging.getLogger(__name__)
 
 class AndroidtestController(BaseController):
 	def useragent(self):
+		pageQRCode = "https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=http%3A%2F%2Fsinjax.net%2FandroidTest%2Fuseragent&choe=UTF-8"
 		agent = request.headers['User-Agent']
 		allBits = agent.split(";")
 		andBit = [x for x in allBits if "Android" in x]
@@ -23,4 +24,4 @@ class AndroidtestController(BaseController):
 				else:
 					return redirect_to("http://padkite.com/PadKite-RC7-v1_00-froyo")
 			
-		return "User-Agent Not recognised"
+		return "<html><body><img src=%s/></body></html>"%pageQRCode
