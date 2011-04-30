@@ -115,6 +115,7 @@
 						philosophy 
 						and the sun.
 					</p>
+					<p>You can find <a href="${h.url_for(controller='cv')}">Sina's CV here</a></p>
 				</div>
 				<div class="structure">
 					<h3><strong>while</strong> <em>I work on...</em></h3>

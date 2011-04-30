@@ -326,7 +326,7 @@ ul.p_details>li>*{
 			<p>Attended Teaching for Research Staff introductory course (2011)</p>
 			
 			<h2>Publications In Progress</h2>
-			<p class="citation">Hare, J., Samangooei, S., Dupplaw, D., Lewis, P. ImageTerrier: A platform for scalable high-performance image retrieval. Submitted to: <em>ACM MM'11: ACM Multimedia</em>, November 28th 2011, Scottsdale, Arizona, USA. (in progress)</p>
+			<p class="citation">Hare, J., Samangooei, S., Dupplaw, D., Lewis, P. ImageTerrier: A platform for scalable high-performance image retrieval. Submitted to: <em>ACM MM'11: ACM Multimedia</em>, November 28th 2011, Scottsdale, Arizona, USA. (submitted)</p>
 			<p class="citation">Hare, J., Samangooei, S., Lewis, P. Introducing OpenImaJ: An open source image processing and retrieval library written entirely in java. Submitted to: <em>ACM MM'11: ACM Multimedia. Open Source Competition</em>, November 28th 2011, Scottsdale, Arizona, USA. (in progress)</p>
 			<p class="citation">Samangooei, S., Hare, J., Lewis, P. Massively Parallel Image Retrieval using Hadoop. (in progress)</p>
 			<h2>Publications</h2>
