@@ -282,9 +282,9 @@ ul.p_details>li>*{
 					<ul>
 						
 						<li><strong>Highly skilled programmer</strong>. Experience in <strong>Java</strong> (and other JVM lanauges including <strong>Groovy</strong>), <strong>Python</strong> and <strong>C++</strong> along with experience in <strong>Matlab</strong>, <strong>Ruby</strong>, <strong>Prolog</strong> and <strong>Scheme</strong> </li>
-						<li>Experienced database administrator, highly skilled in SQL with some experience with ORM database models (e.g. SQLAlchemy)</li>
+						<li>Experienced database administrator, highly skilled in <strong>SQL</strong> with some experience with <strong>ORM</strong> database models (e.g. <strong>SQLAlchemy</strong>)</li>
 						<li><strong>Experienced web programmer</strong>. Confident in both server side programming (<strong>Grails</strong>, <strong>PHP</strong>, <strong>JSP</strong> and <strong>Pylons</strong>) as well as client side scripting (<strong>javascript</strong>+<strong>jQuery</strong>, <strong>HTML</strong> and <strong>CSS</strong>)</li>
-						<li>Confident unix programmer and administrator with experience using most shell tools</li>
+						<li><strong>Confident unix administrator</strong>. Experience using <strong>shell tools</strong> to maintain research and production systems</li>
 						<li>Extensive experience with MS Windows (all versions), Mac OS (Tiger and Leopard) and many Linux environments</li>
 					</ul>
 				</li>
