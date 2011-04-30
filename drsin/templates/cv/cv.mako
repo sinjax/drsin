@@ -6,14 +6,18 @@
 	<title>Curriculum Vitae for Sina Samangooei</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" charset="utf-8">
-		$(function () {
-			$("#publications").load("${h.url_for(controller="style",action="recentPubs")} .citation")
-			
-		})
+		// $(function () {
+		// 	$("#publications").load("${h.url_for(controller="style",action="recentPubs")} .citation")
+		// 	
+		// })
 	</script>
 <style type="text/css" media="screen">
 
 body{
+	margin: 0 auto;
+}
+.instructions {
+	width:210mm;
 	margin: 0 auto;
 }
 .page{
@@ -24,15 +28,34 @@ body{
 }
 h1{
 	margin-top:2em;
+	font-size:25pt;
 }
-#validXHTML{
+.validXHTML{
 	display:block;
 }
+
+.page-break  {
+	width:797px;
+	height:1em;
+	background-color: white;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	position:relative;
+	left:-39px;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
 </style>
 <style type="text/css" media="print">
-	#validXHTML{
+	.page{
+		width:210mm;
+		margin: 0 auto;
+	}
+	.validXHTML{
 		display:none;
 	}
+	.page-break  { display:block; page-break-before:always; }
 </style>
 <style type="text/css" media="all">
 *{
@@ -48,10 +71,10 @@ h1,h2,ul,p{
 }
 p, li, li *
 {
-	line-height:150%;
+	line-height:140%;
 }
 h1{
-	margin-bottom:2em;
+	margin-bottom:1em;
 	text-align:center;
 }
 
@@ -74,6 +97,7 @@ h4{
 	padding-left:1em;
 	margin-bottom:1em;
 }
+
 .layout>ul>li,p{
 	font-size: 10pt;
 	padding-bottom:0.5em;
@@ -136,9 +160,9 @@ ul.p_details>li>*{
 	<div class="page">
 		<div class="layout">
 		<h1>
-			Curriculum Vitae for <br/> Dr. Sina Samangooei <br/>
-			ss@ecs.soton.ac.uk
+			Curriculum Vitae for Dr. Sina Samangooei <br/>
 		</h1>
+		<h1 style="font-size:14pt;">ss@ecs.soton.ac.uk</h1>
 		<h2 class="p_details">Personal Details</h2>
 		<ul class="p_details">
 			<!-- <li>
@@ -218,6 +242,7 @@ ul.p_details>li>*{
 			<p>
 				The development and application of novel approaches in Machine Learning and Computer Vision to address the exploration and effective utilisation of Large Scale Multimedia Corpa by humans, including: Multimedia retrieval through semantic and content based queries; Automatic annotation of multimedia artifacts towards machine understanding of scenes and objects; Human and Object recognition for applications in pervasive computing and surveillance.
 			</p>
+			<div class="page-break"></div>
 			<h2>Professional Experience</h2>
 			<ul>
 				<li>
@@ -255,7 +280,7 @@ ul.p_details>li>*{
 					</h3>
 					<ul>
 						<li>Performed initial research on the EU funded eChase project </li>
-						<li>Created the ﬁrst prototype of the Mediaengine portion of the eChase system </li>
+						<li>Created the first prototype of the Mediaengine portion of the eChase system </li>
 						<li>Wrote Java interface with backing C++ FVS content based image comparison algorithms</li>
 						<li>Wrote web service interface allowing FVS algorithm traversal of large image collections and comparisons of collections with provided inputs</li>
 					</ul>
@@ -268,7 +293,7 @@ ul.p_details>li>*{
 					<span class="dates">Summer 2004</span></span>
 					</h3>
 					<ul>
-						<li>Joined ﬁnal portions of the EU funded Sculpteur project </li>
+						<li>Joined final portions of the EU funded Sculpteur project </li>
 						<li>Improved the JSP Based interface </li>
 						<li>Created multiple front ends in CSS for the system to match designs used by project partners (e.g. V&amp;A Museum)</li>
 					</ul>
@@ -320,6 +345,7 @@ ul.p_details>li>*{
 					<p>Currently employed 1/2 FTE on this project</p>
 				</li>
 			</ul>
+			<div class="page-break"></div>
 			<h2>Teaching Experience</h2>
 			<p>Given guest lectures to 3rd year undergraduate students on the “Multimedia systems” course in 2009 and 2010. </p>
 			<p>Some involvement in supervision of 3rd year undergraduate individual research projects (IRP).</p>
@@ -332,7 +358,7 @@ ul.p_details>li>*{
 			<p class="citation">Samangooei, S., Hare, J., Lewis, P. Massively Parallel Image Retrieval using Hadoop. (in progress)</p>
 			<h2>Publications</h2>
 			<p id="publications">
-				
+				${c.publications|n}
 			</p>
 			<h2>Referees</h2>
 			<ul>
@@ -351,5 +377,6 @@ ul.p_details>li>*{
 			</ul>
 			</div>
 	</div>
+	<p class="instructions validXHTML"><a href="/cv/sinasamangooei-cv.pdf">Document as PDF</a>(pdf/printing this page should produce good results)</p>
 </body>
 </html>
