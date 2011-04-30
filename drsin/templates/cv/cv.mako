@@ -136,11 +136,12 @@ ul.p_details>li>*{
 	<div class="page">
 		<div class="layout">
 		<h1>
-			Curriculum Vitae for <br/> Dr. Sina Samangooei
+			Curriculum Vitae for <br/> Dr. Sina Samangooei <br/>
+			ss@ecs.soton.ac.uk
 		</h1>
 		<h2 class="p_details">Personal Details</h2>
 		<ul class="p_details">
-			<li>
+			<!-- <li>
 				<h3>Nationality</h3>
 				<p>British</p>
 			</li>
@@ -155,7 +156,7 @@ ul.p_details>li>*{
 			<li>
 				<h3>E-mail</h3>
 				<p>ss@ecs.soton.ac.uk</p>
-			</li>
+			</li> -->
 		</ul>
 			
 			<h2>Education</h2>
