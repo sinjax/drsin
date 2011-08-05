@@ -7,7 +7,6 @@ from drsin.lib.base import BaseController, render
 from StringIO import StringIO
 import pycurl
 
-import ho.pisa as pisa
 log = logging.getLogger(__name__)
 
 class CvController(BaseController):
