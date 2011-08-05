@@ -30,6 +30,7 @@ h1{
 	margin-top:2em;
 	font-size:25pt;
 }
+
 .validXHTML{
 	display:block;
 }
@@ -63,7 +64,7 @@ h1{
 	padding:0;
 }
 
-h1,h2,ul,p{
+h1,h2,h3,ul,p{
 	font-family: "Helvetica", serif;
 }
 .layout{
@@ -96,6 +97,7 @@ h4{
 .page>ul{
 	padding-left:1em;
 	margin-bottom:1em;
+	position:relative;
 }
 
 .layout>ul>li,p{
@@ -105,7 +107,8 @@ h4{
 }
 .layout>ul>li>ul{
 	font-size: 10pt;
-	margin-left:1em;
+	margin-left:2em;
+	position:relative;
 }
 h2.p_details{
 	display:none;
@@ -131,7 +134,7 @@ ul.p_details>li>*{
 .nolist{
 	list-style: none;
 	position:relative;
-	left:-1em;
+	left:-2em;
 }
 
 .location_dates{
@@ -182,7 +185,19 @@ ul.p_details>li>*{
 				<p>ss@ecs.soton.ac.uk</p>
 			</li> -->
 		</ul>
+			<h2>Research</h2>
+			<h3>Interests</h3>
+			<p>
+				The development and application of novel approaches in Machine Learning and Computer Vision to address the exploration and effective utilisation of Large Scale Multimedia Corpa by humans, including: Multimedia retrieval through semantic and content based queries; Automatic annotation of multimedia artifacts towards machine understanding of scenes and objects; Human and Object recognition for applications in pervasive computing and surveillance.
+			</p>
 			
+			<h3>Achievements</h3>
+				<ul>
+					<li><em>Semantic Biometrics dataset</em> - Constructions of a unique semantically enriched biometrics dataset along with baseline algorithms for semantic biometric retrieval and identification</li>
+					<li><em>Open Source multimedia library</em> - Primary developer on an open source mulimedia processing toolkit (openimaj.org) and a content based image indexing framework (imageterrier.org) implementing several state of the art techniques in computer vision and machine learning research</li>
+				</ul>
+			<p>
+			</p>
 			<h2>Education</h2>
 			<ul>
 				<li>
@@ -212,19 +227,15 @@ ul.p_details>li>*{
 					</h3>
 					
 					<h4>Dissertation</h4>
-					<p><em>Content Based Image Comparison and Retrieval using Sketch Analysis.</em> A full system, from feature extraction to integration with existing web image sources, for retrieving images using a quick sketch as the query.</p>
+					<p><em>Content Based Image Comparison and Retrieval using Sketch Analysis.</em> An end to end multimedia search system for retrieving images using a quick sketch as the query.</p>
 					
-					<h4>Industrial Group Project</h4>
-					<p><em>Obstruction management at Southampton Airport</em>. A visualisation tool for management of runway dimension re-declaration on event of obstructions. A simplified version of the completed project formed the skeleton for a second year group project assigned to BSc Computer Scientists that year.</p>
-					
-					<h4>Individual Research Project</h4>
-					<p><em>A review of automatic annotation and semi-automatic annotation techniques in multimedia</em>. An exploration of the state of the art for annotation of music, images and videos. This included fully automatic techniques as well as approaches where automatic techniques assisted manual annotation</p>
-					
-					<h4>Selected modules/achievements:</h4>
+					<h4>Selected undergraduate modules/achievements:</h4>
 					<ul>
-						<li><em>Operating Systems</em> producing a 32-Bit Real-time Operating System using C</li>
-						<li><em>Communications and Networks</em> producing a HTTP web-server using Java</li>
-						<li><em>Interactive Entertainment Systems</em> producing a fully playable computer game using C++/OpenGL</li>
+						<li><em>Group design project</em> - Obstruction management tool for Southampton Airport</li>
+						<li><em>Individual Research project</em> - A review of automatic and assisted annotation techniques in multimedia</li>
+						<li><em>Operating Systems</em> - developed a 32-Bit Real-time Operating System using C</li>
+						<li><em>Communications and Networks</em> - developed a HTTP web-server using Java</li>
+						<li><em>Interactive Entertainment Systems</em> - developed a fully playable game using C++/OpenGL</li>
 					</ul>
 				</li>
 				<li>
@@ -238,11 +249,29 @@ ul.p_details>li>*{
 					<p>A level Maths (A), Physics (A), ICT (A). AS level Economics (B)</p>
 				</li>
 			</ul>
-			<h2>Research Interests</h2>
-			<p>
-				The development and application of novel approaches in Machine Learning and Computer Vision to address the exploration and effective utilisation of Large Scale Multimedia Corpa by humans, including: Multimedia retrieval through semantic and content based queries; Automatic annotation of multimedia artifacts towards machine understanding of scenes and objects; Human and Object recognition for applications in pervasive computing and surveillance.
-			</p>
 			<div class="page-break"></div>
+			<!-- <h3>Participation in Recent Research Projects</h3>
+			<ul>
+				<li>
+					<p style="position:relative">
+					<span class="doing"><em>LivingKnowledge</em> (€4,900,000 – EU/IST [FP7])</span><br/>
+					<span class="location">Research Fellow</span>
+					<span class="location_dates">
+					<span class="dates">2010 - 2012</span></span>
+					</p>
+					<p>Currently employed 1/2 FTE on this project</p>
+					<hr/>
+				</li>
+				<li>
+					<p style="position:relative">
+					<span class="doing"><em>LiveMemories</em> (€3,900,000 – The autonomous province of Trentino, Italy)</span><br/>
+					<span class="location">Research Fellow</span>
+					<span class="location_dates">
+					<span class="dates">2010 - 2011</span></span>
+					</p>
+					<p>Currently employed 1/2 FTE on this project</p>
+				</li>
+			</ul> -->
 			<h2>Professional Experience</h2>
 			<ul>
 				<li>
@@ -253,9 +282,9 @@ ul.p_details>li>*{
 					<span class="dates">2010 - present</span></span>
 					</h3>
 					<ul>
-						<li>Investigating scalable solutions for large-scale image retrieval tasks</li>
-						<li>Exploring robust techniques for automatic image understanding</li>
-						<li>Developing a suite of web services providing access to such algorithms for third party application development</li>
+						<li>Investigating scalable solutions for large-scale multimedia retrieval tasks</li>
+						<li>Exploring robust techniques for automatic multimedia understanding</li>
+						<li>Developing an open source multimedia analysis toolkit (openimaj.org) and image indexing framework (imageterrier.org)</li>
 					</ul>
 				</li>
 				<li>
@@ -298,12 +327,13 @@ ul.p_details>li>*{
 						<li>Created multiple front ends in CSS for the system to match designs used by project partners (e.g. V&amp;A Museum)</li>
 					</ul>
 				</li>
+				
 			</ul>
 			<h2>Skills</h2>
 			<ul>
 				<li>
 					<h3>
-					<span class="doing">Technical Skills</span>
+					<span class="doing">Technical</span>
 					</h3>
 					<ul>
 						
@@ -316,7 +346,7 @@ ul.p_details>li>*{
 				</li>
 				<li>
 					<h3>
-					<span class="doing">Other Positions of Responsibility</span>
+					<span class="doing">Positions of Responsibility</span>
 					</h3>
 					<ul>
 						<li>President of the Southampton University Circus Society, 2005</li>
@@ -324,39 +354,19 @@ ul.p_details>li>*{
 					</ul>
 				</li>
 			</ul>
-			<h2>Participation in Recent Research Projects</h2>
-			<ul>
-				<li>
-					<h3>
-					<span class="doing">LivingKnowledge (€4,900,000 – EU/IST [FP7])</span><br/>
-					<span class="location">Research Fellow</span>
-					<span class="location_dates">
-					<span class="dates">2010 - 2012</span></span>
-					</h3>
-					<p>Currently employed 1/2 FTE on this project</p>
-				</li>
-				<li>
-					<h3>
-					<span class="doing">LiveMemories (€3,900,000 – The autonomous province of Trentino, Italy)</span><br/>
-					<span class="location">Research Fellow</span>
-					<span class="location_dates">
-					<span class="dates">2010 - 2011</span></span>
-					</h3>
-					<p>Currently employed 1/2 FTE on this project</p>
-				</li>
-			</ul>
-			<div class="page-break"></div>
 			<h2>Teaching Experience</h2>
 			<p>Given guest lectures to 3rd year undergraduate students on the “Multimedia systems” course in 2009 and 2010. </p>
 			<p>Some involvement in supervision of 3rd year undergraduate individual research projects (IRP).</p>
 			<p>Teaching and Marking (since 2007) in 1st year computer science courses including Data Structures and Algorithms.</p>
 			<p>Attended Teaching for Research Staff introductory course (2011)</p>
+			<div class="page-break"></div>
 			
-			<h2>Publications In Progress</h2>
+			<h2>Publications</h2>
+			<h3>In Progress</h3>
 			<p class="citation">Hare, J., Samangooei, S., Dupplaw, D., Lewis, P. ImageTerrier: A platform for scalable high-performance image retrieval. Submitted to: <em>ACM MM'11: ACM Multimedia</em>, November 28th 2011, Scottsdale, Arizona, USA. (submitted)</p>
 			<p class="citation">Hare, J., Samangooei, S., Lewis, P. Introducing OpenImaJ: An open source image processing and retrieval library written entirely in java. Submitted to: <em>ACM MM'11: ACM Multimedia. Open Source Competition</em>, November 28th 2011, Scottsdale, Arizona, USA. (in progress)</p>
 			<p class="citation">Samangooei, S., Hare, J., Lewis, P. Massively Parallel Image Retrieval using Hadoop. (in progress)</p>
-			<h2>Publications</h2>
+			<h3>Accepted</h3>
 			<p id="publications">
 				${c.publications|n}
 			</p>
