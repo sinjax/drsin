@@ -12,7 +12,7 @@ log = logging.getLogger(__name__)
 class CvController(BaseController):
 
 	def publications(self):
-		curlStr = """http://eprints.ecs.soton.ac.uk/cgi/search/quicksearch/export_ecs_HTML.html?screen=Public%3A%3AEPrintSearch&_action_export=1&output=HTML&exp=0|1|-date%2Fcreators_name%2Ftitle|archive|-|basic%3Aabstract%2Fcreators_name%2Fdate%2Feditors_name%2Fkeywords%2Ftitle%3AALL%3AIN%3Asamangooei|-|eprint_status%3Aeprint_status%3AALL%3AEQ%3Aarchive|metadata_visibility%3Ametadata_visibility%3AALL%3AEX%3Ashow&cache=4122428"""
+		curlStr = """http://eprints.ecs.soton.ac.uk/cgi/exportview/person/10294/HTML/10294.html"""
 		self.curl = pycurl.Curl()
 		body = StringIO()
 		self.curl.setopt(pycurl.URL, curlStr)
