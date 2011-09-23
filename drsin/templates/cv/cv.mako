@@ -382,7 +382,7 @@ ul.p_details>li>*{
 					<p class="referee_address">Intelligence, Agents, Multimedia Group, School of Electronics and Computer Science, University of Southampton, Southampton, Hampshire, SO17 1BJ Phone: +44 (0)23 8059 3715 • E-Mail: phl@ecs.soton.ac.uk</p>
 				</li>
 				<li>
-					<span class="referee_name">Dr Gary Willis</span>
+					<span class="referee_name">Dr Gary Wills</span>
 					<p class="referee_address">Learning Societies Lab, School of Electronics and Computer Science, University of Southampton, Southampton, Hampshire, SO17 1BJ Phone: +44 (0)23 8059 2831 • E-Mail: gbw@ecs.soton.ac.uk </p>
 				</li>
 			</ul>
