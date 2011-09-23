@@ -102,7 +102,8 @@
 						age=int((now.year+(now.month/12.0))-(1984+birthday))
 						%>
 						Sina is a ${age} year old computer scientist, PhD survivor. He is a part of the 
-						<a href="http://www.iam.ecs.soton.ac.uk">IAM research group</a> of 
+						<a href="http://www.wais.ecs.soton.ac.uk">WAIS research group </a> 
+						(Formerly <a href="http://www.iam.ecs.soton.ac.uk">IAM research group </a> ) of 
 						the <a href="http://ecs.soton.ac.uk">School of Electronics and Computer Science</a> 
 						at the  <a href="http://www.soton.ac.uk">University of Southampton</a>. 
 						He did his PhD in the <a href="http://www.iam.ecs.soton.ac.uk">ISIS research group</a> with
