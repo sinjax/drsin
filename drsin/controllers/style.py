@@ -27,4 +27,7 @@ class StyleController(BaseController):
 		self.curl.setopt(pycurl.NOSIGNAL, 1)
 		self.curl.perform()
 		self.curl.close()
-		return body.getvalue()
+		retVal = body.getvalue()
+		udata=retVal.decode("utf-8")
+		retVal = udata.encode("ascii","ignore")
+		return retVal
