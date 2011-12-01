@@ -24,7 +24,10 @@ class CvController(BaseController):
 		self.curl.close()
 		return body.getvalue()
 	def index(self):
+		# c.publications = "wang"
 		c.publications = self.publications();
+		udata=c.publications.decode("utf-8")
+		c.publications = udata.encode("ascii","ignore")
 		return render('/cv/cv.mako')
 	
 	def aspdf(self):

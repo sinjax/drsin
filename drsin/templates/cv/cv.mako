@@ -227,7 +227,7 @@ ul.p_details>li>*{
 					</span>
 					</h3>
 					
-					<h4>Dissertation</h4>
+					<h4>Dissertation é</h4>
 					<p><em>Content Based Image Comparison and Retrieval using Sketch Analysis.</em> An end to end multimedia search system for retrieving images using a quick sketch as the query.</p>
 					
 					<h4>Selected undergraduate modules/achievements:</h4>
