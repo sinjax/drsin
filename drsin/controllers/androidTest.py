@@ -8,6 +8,8 @@ from drsin.lib.base import BaseController, render
 log = logging.getLogger(__name__)
 
 class AndroidtestController(BaseController):
+	def header(self):
+		return str(request.headers)
 	def useragent(self):
 		pageQRCode = "https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=http%3A%2F%2Fsinjax.net%2FandroidTest%2Fuseragent&choe=UTF-8"
 		agent = request.headers['User-Agent']
