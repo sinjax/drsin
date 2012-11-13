@@ -12,7 +12,7 @@ log = logging.getLogger(__name__)
 class CvController(BaseController):
 
 	def publications(self):
-		curlStr = """http://eprints.ecs.soton.ac.uk/cgi/exportview/person/10294/HTML/10294.html"""
+		curlStr = """http://eprints.soton.ac.uk/view/people/47613.include"""
 		self.curl = pycurl.Curl()
 		body = StringIO()
 		self.curl.setopt(pycurl.URL, curlStr)
