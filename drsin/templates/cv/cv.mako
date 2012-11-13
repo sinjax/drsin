@@ -169,22 +169,6 @@ ul.p_details>li>*{
 		<h1 style="font-size:14pt;">ss@ecs.soton.ac.uk</h1>
 		<h2 class="p_details">Personal Details</h2>
 		<ul class="p_details">
-			<!-- <li>
-				<h3>Nationality</h3>
-				<p>British</p>
-			</li>
-			<li>
-				<h3>Date of Birth</h3>
-				<p>1984</p>
-			</li>
-			<li>
-				<h3>Address</h3>
-				<p>28 Oakmount Avenue, Southampton, UK, S017 1DR</p>
-			</li>
-			<li>
-				<h3>E-mail</h3>
-				<p>ss@ecs.soton.ac.uk</p>
-			</li> -->
 		</ul>
 			<h2>Research</h2>
 			<h3>Interests</h3>
@@ -194,8 +178,8 @@ ul.p_details>li>*{
 			
 			<h3>Achievements</h3>
 				<ul>
-					<li><em>Semantic Biometrics dataset</em> - Constructions of a unique semantically enriched biometrics dataset along with baseline algorithms for semantic biometric retrieval and identification</li>
 					<li><em>Open Source multimedia library</em> - Primary developer on an open source mulimedia processing toolkit (openimaj.org) and a content based image indexing framework (imageterrier.org) implementing several state of the art techniques in computer vision and machine learning research</li>
+					<li><em>Semantic Biometrics dataset</em> - Constructions of a unique semantically enriched biometrics dataset along with baseline algorithms for semantic biometric retrieval and identification</li>
 				</ul>
 			<p>
 			</p>
@@ -227,7 +211,7 @@ ul.p_details>li>*{
 					</span>
 					</h3>
 					
-					<h4>Dissertation é</h4>
+					<h4>Dissertation</h4>
 					<p><em>Content Based Image Comparison and Retrieval using Sketch Analysis.</em> An end to end multimedia search system for retrieving images using a quick sketch as the query.</p>
 					
 					<h4>Selected undergraduate modules/achievements:</h4>
@@ -250,7 +234,6 @@ ul.p_details>li>*{
 					<p>A level Maths (A), Physics (A), ICT (A). AS level Economics (B)</p>
 				</li>
 			</ul>
-			<div class="page-break"></div>
 			<!-- <h3>Participation in Recent Research Projects</h3>
 			<ul>
 				<li>
@@ -277,10 +260,23 @@ ul.p_details>li>*{
 			<ul>
 				<li>
 					<h3>
-					<span class="doing">Research Fellow</span><br/>
+					<span class="doing">Research Fellow - Trendminer Project</span><br/>
 					<span class="location">University of Southampton</span>
 					<span class="location_dates">
-					<span class="dates">2010 - present</span></span>
+					<span class="dates">2011 - present</span></span>
+					</h3>
+					<ul>
+						<li>Exploring large scale distributed stream reasoning towards efficient analysis of social media streams</li>
+						<li>Investigating machine learning solutions for incorporating large scale social media information for improved prediction and modelling of timeseries</li>
+						<li>Extending OpenIMAJ to include text processing, NLP, stream reasoning and more machine learning components</li>
+					</ul>
+				</li>
+				<li>
+					<h3>
+					<span class="doing">Research Fellow - LivingKnowledge/LiveMemories Project</span><br/>
+					<span class="location">University of Southampton</span>
+					<span class="location_dates">
+					<span class="dates">2010 - 2011</span></span>
 					</h3>
 					<ul>
 						<li>Investigating scalable solutions for large-scale multimedia retrieval tasks</li>
@@ -336,13 +332,24 @@ ul.p_details>li>*{
 					<h3>
 					<span class="doing">Technical</span>
 					</h3>
+					<p> For examples of my programming work please see the <a href="http://sourceforge.net/p/openimaj/code/1570/tree/trunk/">OpenIMAJ project SVN</a> and my <a href="http://github.org/sinjax">github</a></p>
 					<ul>
+						<li>
+							<strong>BigData</strong> expert. Extensive experience working with <strong>MapReduce</strong> and specifically its application in text analysis and multimedia information retrieval. Experienced <strong>Hadoop</strong> programmer and administrator as well as some experience in large scale distributed stream processing frameworks such as <strong>Storm</strong>.
+						</li>
+						<li>
+							<strong>Highly skilled programmer</strong>. 
+							Experience in <strong>Java</strong> (and other JVM languages), 
+							<strong>Python</strong> and 
+							<strong>C++</strong> along with experience in 
+							<strong>Matlab</strong>, 
+							<strong>Ruby</strong>, 
+							<strong>Prolog</strong> and 
+							<strong>Scheme</strong> 
+						</li>
 						
-						<li><strong>Highly skilled programmer</strong>. Experience in <strong>Java</strong> (and other JVM lanauges including <strong>Groovy</strong>), <strong>Python</strong> and <strong>C++</strong> along with experience in <strong>Matlab</strong>, <strong>Ruby</strong>, <strong>Prolog</strong> and <strong>Scheme</strong> </li>
-						<li>Experienced database administrator, highly skilled in <strong>SQL</strong> with some experience with <strong>ORM</strong> database models (e.g. <strong>SQLAlchemy</strong>)</li>
-						<li><strong>Experienced web programmer</strong>. Confident in both server side programming (<strong>Grails</strong>, <strong>PHP</strong>, <strong>JSP</strong> and <strong>Pylons</strong>) as well as client side scripting (<strong>javascript</strong>+<strong>jQuery</strong>, <strong>HTML</strong> and <strong>CSS</strong>)</li>
+						<li><strong>Experienced web programmer</strong>. Confident in both server side programming (<strong>Grails</strong>, <strong>PHP</strong>, <strong>JSP</strong>, <strong>Pylons</strong> and <strong>SQL</strong> database administration) as well as client side web applications(<strong>HTML</strong>, <strong>javascript</strong>, <strong>CSS</strong> etc.)</li>
 						<li><strong>Confident unix administrator</strong>. Experience using <strong>shell tools</strong> to maintain research and production systems</li>
-						<li>Extensive experience with MS Windows (all versions), Mac OS (Tiger and Leopard) and many Linux environments</li>
 					</ul>
 				</li>
 				<li>
@@ -356,35 +363,32 @@ ul.p_details>li>*{
 				</li>
 			</ul>
 			<h2>Teaching Experience</h2>
-			<p>Given guest lectures to 3rd year undergraduate students on the “Multimedia systems” course in 2009 and 2010. </p>
-			<p>Some involvement in supervision of 3rd year undergraduate individual research projects (IRP).</p>
+			<p>Given guest lectures to 3rd year undergraduate students on the “Multimedia systems” course between 2009 and 2012. </p>
+			<p>Supervision of 3rd year undergraduate dissertations and 4th year individual research projects (IRP).</p>
 			<p>Teaching and Marking (since 2007) in 1st year computer science courses including Data Structures and Algorithms.</p>
 			<p>Attended Teaching for Research Staff introductory course (2011)</p>
-			<div class="page-break"></div>
-			
-			<h2>Publications</h2>
-			<h3>In Progress</h3>
-			<p class="citation">Hare, J., Samangooei, S., Dupplaw, D., Lewis, P. ImageTerrier: A platform for scalable high-performance image retrieval. (in progress)</p>
-			<p class="citation">Samangooei, S., Hare, J., Lewis, P. Massively Parallel Image Retrieval using Hadoop. (in progress)</p>
-			<h3>Accepted</h3>
-			<p id="publications">
-				${c.publications|n}
-			</p>
 			<h2>Referees</h2>
 			<ul>
 				<li>
-					<span class="referee_name">Professor Mark S. Nixon</span>
-					<p class="referee_address">Information: Signals, Images, Systems Research Group, School of Electronics and Computer Science, University of Southampton, Southampton, Hampshire, SO17 1BJ Phone: +44 (0)23 8059 3542 • E-Mail: msn@ecs.soton.ac.uk</p>
+					<span class="referee_name">Professor Mahesan Niranjan</span>
+					<p class="referee_address">ECS, Faculty of Physical and Applied Sciences University of Southampton, Southampton, United Kingdom. SO17 1BJ Phone: +44 (0)23 8059 3021 . E-Mail: mn@ecs.soton.ac.uk </p>
 				</li>
 				<li>
 					<span class="referee_name">Professor Paul Lewis</span>
-					<p class="referee_address">Intelligence, Agents, Multimedia Group, School of Electronics and Computer Science, University of Southampton, Southampton, Hampshire, SO17 1BJ Phone: +44 (0)23 8059 3715 • E-Mail: phl@ecs.soton.ac.uk</p>
+					<p class="referee_address">ECS, Faculty of Physical and Applied Sciences University of Southampton, Southampton, United Kingdom. SO17 1BJ Phone: +44 (0)23 8059 3715 • E-Mail: phl@ecs.soton.ac.uk</p>
 				</li>
 				<li>
-					<span class="referee_name">Dr Gary Wills</span>
-					<p class="referee_address">Learning Societies Lab, School of Electronics and Computer Science, University of Southampton, Southampton, Hampshire, SO17 1BJ Phone: +44 (0)23 8059 2831 • E-Mail: gbw@ecs.soton.ac.uk </p>
+					<span class="referee_name">Professor Mark S. Nixon</span>
+					<p class="referee_address">ECS, Faculty of Physical and Applied Sciences University of Southampton, Southampton, United Kingdom. SO17 1BJ Phone: +44 (0)23 8059 3542 • E-Mail: msn@ecs.soton.ac.uk</p>
 				</li>
 			</ul>
+			
+			<h2>Publications</h2>
+			
+			<p id="publications">
+				${c.publications|n}
+			</p>
+			
 			</div>
 	</div>
 	<p class="instructions validXHTML"><a href="/cv/sinasamangooei-cv.pdf">Document as PDF</a>(pdf/printing this page should produce good results)</p>
