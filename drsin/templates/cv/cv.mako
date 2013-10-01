@@ -37,7 +37,7 @@ h1{
 }
 
 .page-break  {
-	width:797px;
+	/*width:797px;
 	height:1em;
 	background-color: white;
 	border-top:2px solid black;
@@ -45,7 +45,8 @@ h1{
 	position:relative;
 	left:-39px;
 	margin-top:1em;
-	margin-bottom:1em;
+	margin-bottom:1em;*/
+	display:none;
 }
 
 </style>
@@ -58,6 +59,9 @@ h1{
 		display:none;
 	}
 	.page-break  { display:block; page-break-before:always; }
+	.noprint, .ep_view_jump_to, .ep_view_blurb, .ep_view_timestamp{
+		display:none;
+	}
 </style>
 <style type="text/css" media="all">
 *{
@@ -256,6 +260,7 @@ ul.p_details>li>*{
 					<p>Currently employed 1/2 FTE on this project</p>
 				</li>
 			</ul> -->
+			<div class="page-break"></div>
 			<h2>Professional Experience</h2>
 			<ul>
 				<li>
@@ -363,10 +368,12 @@ ul.p_details>li>*{
 				</li>
 			</ul>
 			<h2>Teaching Experience</h2>
-			<p>Given guest lectures to 3rd year undergraduate students on the “Multimedia systems” course between 2009 and 2012. </p>
+			<p>“NoSQL Database” lecture for the 3rd year Advanced Databases course, 2013. </p>
+			<p>Given guest lectures to 3rd year undergraduate students on the “Multimedia systems” course between 2009 and 2013. </p>
 			<p>Supervision of 3rd year undergraduate dissertations and 4th year individual research projects (IRP).</p>
 			<p>Teaching and Marking (since 2007) in 1st year computer science courses including Data Structures and Algorithms.</p>
 			<p>Attended Teaching for Research Staff introductory course (2011)</p>
+			<div class="page-break"></div>
 			<h2>Referees</h2>
 			<ul>
 				<li>
@@ -391,6 +398,6 @@ ul.p_details>li>*{
 			
 			</div>
 	</div>
-	<p class="instructions validXHTML"><a href="/cv/sinasamangooei-cv.pdf">Document as PDF</a>(pdf/printing this page should produce good results)</p>
+	<p class="noprint">(pdf/printing this page should produce good results)</p>
 </body>
 </html>

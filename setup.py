@@ -14,10 +14,10 @@ setup(
     url='',
     install_requires=[
 		"Pylons>=0.9.7",
-		"SQLAlchemy>=0.5",
+		"SQLAlchemy==0.7.8",
 		"textile>=2.1.4",
 		"FormBuild==2.2.0",
-		"Elixir>=0.7.1","Routes>=1.12","PyRSS2Gen"],
+		"Elixir>=0.7.1","Routes>=1.12","PyRSS2Gen","pycurl"],
     setup_requires=["PasteScript>=1.6.3"],
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,
