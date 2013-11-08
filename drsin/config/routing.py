@@ -19,6 +19,7 @@ def make_map():
 
 	# CUSTOM ROUTES HERE
 	map.connect('/',controller="post",action="list")
+	map.connect('/cv/publications/{year}',controller="cv",action="publications",year=None)
 	map.connect('/{controller}/{action}/{id}',controller="post",action="index",id=None)
 	map.connect('/post/show/{id}.{isolated}',controller="post",action="show")
 	map.connect('/gravatar/{email}',controller="comment",action="gravatar",email="")
