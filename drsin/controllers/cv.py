@@ -6,7 +6,6 @@ from pylons.controllers.util import abort, redirect
 from drsin.lib.base import BaseController, render
 from StringIO import StringIO
 import pycurl
-from IPython import embed
 from BeautifulSoup import BeautifulSoup
 import re
 
