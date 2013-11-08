@@ -17,7 +17,7 @@ setup(
 		"SQLAlchemy==0.7.8",
 		"textile>=2.1.4",
 		"FormBuild==2.2.0",
-		"Elixir>=0.7.1","Routes>=1.12","PyRSS2Gen","pycurl"],
+		"Elixir>=0.7.1","Routes>=1.12","PyRSS2Gen","pycurl","beautifulsoup4"],
     setup_requires=["PasteScript>=1.6.3"],
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,
