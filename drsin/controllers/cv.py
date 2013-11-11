@@ -45,7 +45,7 @@ class CvController(BaseController):
 
 	def academic(self):
 		# c.publications = "wang"
-		c.publications = self.publications(2012);
+		c.publications = self.publications(2008);
 		return render('/cv/cv-academic.mako')
 
 	def index(self):
