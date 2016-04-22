@@ -23,7 +23,7 @@ class PostController(BaseController):
 	
 	def list(self):
 		c.posts = model.Post.query.order_by(model.desc(model.Post.date))
-		c.posts = c.posts.all()[:4]
+		c.posts = c.posts.all()
 		c.post_list = True
 		return render("/post/list.mako")
 	

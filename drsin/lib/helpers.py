@@ -36,4 +36,4 @@ def textile(text):
 		finalString += t.textile(text[0:s])
 		finalString += text[s:e]
 		text = text[e:]
-	return text
+	return finalString
