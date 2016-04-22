@@ -238,37 +238,29 @@ ul.p_details>li>*{
 					<p>A level Maths (A), Physics (A), ICT (A). AS level Economics (B)</p>
 				</li>
 			</ul>
-			<!-- <h3>Participation in Recent Research Projects</h3>
-			<ul>
-				<li>
-					<p style="position:relative">
-					<span class="doing"><em>LivingKnowledge</em> (€4,900,000 – EU/IST [FP7])</span><br/>
-					<span class="location">Research Fellow</span>
-					<span class="location_dates">
-					<span class="dates">2010 - 2012</span></span>
-					</p>
-					<p>Currently employed 1/2 FTE on this project</p>
-					<hr/>
-				</li>
-				<li>
-					<p style="position:relative">
-					<span class="doing"><em>LiveMemories</em> (€3,900,000 – The autonomous province of Trentino, Italy)</span><br/>
-					<span class="location">Research Fellow</span>
-					<span class="location_dates">
-					<span class="dates">2010 - 2011</span></span>
-					</p>
-					<p>Currently employed 1/2 FTE on this project</p>
-				</li>
-			</ul> -->
 			<div class="page-break"></div>
 			<h2>Professional Experience</h2>
 			<ul>
 				<li>
 					<h3>
+					<span class="doing">Machine Learning Scientist</span><br/>
+					<span class="location">Amazon Cambridge</span>
+					<span class="location_dates">
+					<span class="dates">2014 - Present</span></span>
+					</h3>
+					<ul>
+						<li>Applied scientist working on Machine Learning and NLP problems in the area of question understanding and large scale fact extraction </li>
+						<li>Leading investigations in scalable solutions for developing a statistical question understanding system</li>
+						<li>Major contributor on a large scale rule based fact extraction system used to learn millions of novel facts from unstructured text</li>
+						<li>Team Lead for a group of machine learning scientists and SDEs</li>
+					</ul>
+				</li>
+				<li>
+					<h3>
 					<span class="doing">Research Fellow - Trendminer Project</span><br/>
 					<span class="location">University of Southampton</span>
 					<span class="location_dates">
-					<span class="dates">2011 - present</span></span>
+					<span class="dates">2011 - 2014</span></span>
 					</h3>
 					<ul>
 						<li>Exploring large scale distributed stream reasoning towards efficient analysis of social media streams</li>
