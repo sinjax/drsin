@@ -238,6 +238,7 @@ ul.p_details>li>*{
 					<p>A level Maths (A), Physics (A), ICT (A). AS level Economics (B)</p>
 				</li>
 			</ul>
+<<<<<<< HEAD
 			<div class="page-break"></div>
 			<h2>Professional Experience</h2>
 			<ul>
@@ -256,11 +257,43 @@ ul.p_details>li>*{
 					</ul>
 				</li>
 				<li>
+=======
+			<!-- <h3>Participation in Recent Research Projects</h3>
+			<ul>
+				<li>
+					<p style="position:relative">
+					<span class="doing"><em>LivingKnowledge</em> (€4,900,000 – EU/IST [FP7])</span><br/>
+					<span class="location">Research Fellow</span>
+					<span class="location_dates">
+					<span class="dates">2010 - 2012</span></span>
+					</p>
+					<p>Currently employed 1/2 FTE on this project</p>
+					<hr/>
+				</li>
+				<li>
+					<p style="position:relative">
+					<span class="doing"><em>LiveMemories</em> (€3,900,000 – The autonomous province of Trentino, Italy)</span><br/>
+					<span class="location">Research Fellow</span>
+					<span class="location_dates">
+					<span class="dates">2010 - 2011</span></span>
+					</p>
+					<p>Currently employed 1/2 FTE on this project</p>
+				</li>
+			</ul> -->
+			<div class="page-break"></div>
+			<h2>Professional Experience</h2>
+			<ul>
+				<li>
+>>>>>>> 3d91f9f16b085e2cad599950a777a38ffe2df746
 					<h3>
 					<span class="doing">Research Fellow - Trendminer Project</span><br/>
 					<span class="location">University of Southampton</span>
 					<span class="location_dates">
+<<<<<<< HEAD
 					<span class="dates">2011 - 2014</span></span>
+=======
+					<span class="dates">2011 - present</span></span>
+>>>>>>> 3d91f9f16b085e2cad599950a777a38ffe2df746
 					</h3>
 					<ul>
 						<li>Exploring large scale distributed stream reasoning towards efficient analysis of social media streams</li>
