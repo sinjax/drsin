@@ -6,6 +6,5 @@ build
 *.cfg
 dist
 data
-*.db
 *~*
 *.pxi
