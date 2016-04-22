@@ -5,8 +5,7 @@ available to Controllers. This module is available to templates as 'h'.
 """
 # Import helpers as desired, or define your own, ie:
 from webhelpers.html.tags import checkbox, password
-from textile import Textile
-t = Textile(lite=True)
+import textile as t
 from routes import url_for
 from drsin.lib.flash import *
 from formbuild import start_with_layout as form_start, end_with_layout as form_end
@@ -37,4 +36,4 @@ def textile(text):
 		finalString += t.textile(text[0:s])
 		finalString += text[s:e]
 		text = text[e:]
-	return finalString
+	return text
