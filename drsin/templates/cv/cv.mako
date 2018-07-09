@@ -1,7 +1,7 @@
 ## -*- coding: utf-8 -*-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<title>Curriculum Vitae for Sina Samangooei</title>
@@ -9,7 +9,7 @@
 	<script type="text/javascript" charset="utf-8">
 		// $(function () {
 		// 	$("#publications").load("${h.url_for(controller="style",action="recentPubs")} .citation")
-		// 	
+		//
 		// })
 	</script>
 <style type="text/css" media="screen">
@@ -130,7 +130,7 @@ ul.p_details>li{
 	margin:0 auto;
 	padding-left:2.5em;
 	width:100mm;
-	
+
 }
 ul.p_details>li>*{
 	display:inline;
@@ -168,21 +168,26 @@ ul.p_details>li>*{
 	<div class="page">
 		<div class="layout">
 		<h1>
-			Curriculum Vitae for Dr. Sina Samangooei <br/>
+			Curriculum Vitae for Sina Samangooei <br/>
 		</h1>
-		<h1 style="font-size:14pt;">ss@ecs.soton.ac.uk</h1>
+		<h1 style="font-size:14pt;">sinjax@gmail.com</h1>
 		<h2 class="p_details">Personal Details</h2>
 		<ul class="p_details">
 		</ul>
 			<h2>Research</h2>
 			<h3>Interests</h3>
 			<p>
-				The development and application of novel approaches in Machine Learning and Computer Vision to address the exploration and effective utilisation of Large Scale Multimedia Corpa by humans, including: Multimedia retrieval through semantic and content based queries; Automatic annotation of multimedia artifacts towards machine understanding of scenes and objects; Human and Object recognition for applications in pervasive computing and surveillance.
+				The development and application of novel approaches in Machine Learning, Sematnic Technologies and Computer Vision to facilitate the exploration and exploitation of Large Scale Multimedia Knowledge Corpa. This includes:
+				Deep Learning techniques to facilitate understanding and resolution of natural language utterances;
+				Multimedia retrieval through semantic and content based queries;
+				Automatic annotation of multimedia artifacts towards machine understanding of scenes and objects;
+				Human and Object recognition for applications in pervasive computing and surveillance.
 			</p>
-			
+
 			<h3>Achievements</h3>
 				<ul>
-					<li><em>Open Source multimedia library</em> - Primary developer on an open source mulimedia processing toolkit (openimaj.org) and a content based image indexing framework (imageterrier.org) implementing several state of the art techniques in computer vision and machine learning research</li>
+					<li><em>Amazon Alexa Question Answering</em> - Lead Applied Scientist tasked with applying Machine Learning and NLP research to scaling and improving the Amazon Echo's semantic question answering feature. This included efforts in: question understanding; question entity linking and natural language fact extraction</li>
+					<li><em>Open Source multimedia library</em> - Primary developer on an open source multimedia processing toolkit (openimaj.org) and a content based image indexing framework (imageterrier.org) implementing several state of the art techniques in computer vision and machine learning research</li>
 					<li><em>Semantic Biometrics dataset</em> - Constructions of a unique semantically enriched biometrics dataset along with baseline algorithms for semantic biometric retrieval and identification</li>
 				</ul>
 			<p>
@@ -214,10 +219,10 @@ ul.p_details>li>*{
 					<span class="dates">2002 - 2006</span>
 					</span>
 					</h3>
-					
+
 					<h4>Dissertation</h4>
 					<p><em>Content Based Image Comparison and Retrieval using Sketch Analysis.</em> An end to end multimedia search system for retrieving images using a quick sketch as the query.</p>
-					
+
 					<h4>Selected undergraduate modules/achievements:</h4>
 					<ul>
 						<li><em>Group design project</em> - Obstruction management tool for Southampton Airport</li>
@@ -234,66 +239,49 @@ ul.p_details>li>*{
 					<span class="location_dates">
 					<span class="dates">2000 - 2002</span></span>
 					</h3>
-					
+
 					<p>A level Maths (A), Physics (A), ICT (A). AS level Economics (B)</p>
 				</li>
 			</ul>
-<<<<<<< HEAD
+
 			<div class="page-break"></div>
 			<h2>Professional Experience</h2>
 			<ul>
 				<li>
 					<h3>
-					<span class="doing">Machine Learning Scientist</span><br/>
-					<span class="location">Amazon Cambridge</span>
+					<span class="doing">Research Scientist</span><br/>
+					<span class="location">FiveAI</span>
 					<span class="location_dates">
-					<span class="dates">2014 - Present</span></span>
+					<span class="dates">2017 - Present</span></span>
 					</h3>
 					<ul>
-						<li>Applied scientist working on Machine Learning and NLP problems in the area of question understanding and large scale fact extraction </li>
-						<li>Leading investigations in scalable solutions for developing a statistical question understanding system</li>
-						<li>Major contributor on a large scale rule based fact extraction system used to learn millions of novel facts from unstructured text</li>
-						<li>Team Lead for a group of machine learning scientists and SDEs</li>
+						<li>Research Scientist working on various Perception problems for FiveAI's autonomous vehicle</li>
+						<li>Lead work on static scene perception, built a state of the art Deep Learning system for understanding road and lane layouts of busy road scenes</li>
+						<li>Lead a team of scientists working on a range of perception problems from dynamic object detection to traffic light understanding working on detection and tracking problems</li>
+						<li>Organised a number of research activities across the company include weekly reading, mentoring sessions for junior team members and organised FiveAI's research demonstrations for the 2018 series B pitch</li>
 					</ul>
 				</li>
 				<li>
-=======
-			<!-- <h3>Participation in Recent Research Projects</h3>
-			<ul>
-				<li>
-					<p style="position:relative">
-					<span class="doing"><em>LivingKnowledge</em> (€4,900,000 – EU/IST [FP7])</span><br/>
-					<span class="location">Research Fellow</span>
+					<h3>
+					<span class="doing">Applied Scientist</span><br/>
+					<span class="location">Amazon Cambridge</span>
 					<span class="location_dates">
-					<span class="dates">2010 - 2012</span></span>
-					</p>
-					<p>Currently employed 1/2 FTE on this project</p>
-					<hr/>
+					<span class="dates">2014 - 2017</span></span>
+					</h3>
+					<ul>
+						<li>Applied scientist working on Machine Learning and NLP problems in the area of question understanding and large scale fact extraction </li>
+						<li>Leading investigations and implementing scalable solutions for developing Alexa's statistical question understanding system</li>
+						<li>Leading research in the application of knowledge base entity representation and deep learning techniques to scale Alexa's semantic entity linking system</li>
+						<li>Major contributor on a large scale rule based fact extraction system used to learn millions of novel facts from unstructured text</li>
+						<li>Team Lead for a group of Applied Scientists working on Alexa Question Answering</li>
+					</ul>
 				</li>
 				<li>
-					<p style="position:relative">
-					<span class="doing"><em>LiveMemories</em> (€3,900,000 – The autonomous province of Trentino, Italy)</span><br/>
-					<span class="location">Research Fellow</span>
-					<span class="location_dates">
-					<span class="dates">2010 - 2011</span></span>
-					</p>
-					<p>Currently employed 1/2 FTE on this project</p>
-				</li>
-			</ul> -->
-			<div class="page-break"></div>
-			<h2>Professional Experience</h2>
-			<ul>
-				<li>
->>>>>>> 3d91f9f16b085e2cad599950a777a38ffe2df746
 					<h3>
 					<span class="doing">Research Fellow - Trendminer Project</span><br/>
 					<span class="location">University of Southampton</span>
 					<span class="location_dates">
-<<<<<<< HEAD
 					<span class="dates">2011 - 2014</span></span>
-=======
-					<span class="dates">2011 - present</span></span>
->>>>>>> 3d91f9f16b085e2cad599950a777a38ffe2df746
 					</h3>
 					<ul>
 						<li>Exploring large scale distributed stream reasoning towards efficient analysis of social media streams</li>
@@ -354,30 +342,37 @@ ul.p_details>li>*{
 						<li>Created multiple front ends in CSS for the system to match designs used by project partners (e.g. V&amp;A Museum)</li>
 					</ul>
 				</li>
-				
+
 			</ul>
+			<div class="page-break"></div>
 			<h2>Skills</h2>
 			<ul>
 				<li>
 					<h3>
 					<span class="doing">Technical</span>
 					</h3>
-					<p> For examples of my programming work please see the <a href="http://sourceforge.net/p/openimaj/code/1570/tree/trunk/">OpenIMAJ project SVN</a> and my <a href="http://github.org/sinjax">github</a></p>
+					<p> For examples of my programming work please see the <a href="https://github.com/openimaj/openimaj">OpenIMAJ project</a> and my <a href="https://github.org/sinjax">github</a></p>
 					<ul>
-						<li>
-							<strong>BigData</strong> expert. Extensive experience working with <strong>MapReduce</strong> and specifically its application in text analysis and multimedia information retrieval. Experienced <strong>Hadoop</strong> programmer and administrator as well as some experience in large scale distributed stream processing frameworks such as <strong>Storm</strong>.
+						<li> <b>Computer Vision</b>, <b>Deep Learning</b> and <b>Machine Learning</b> expert with experience in applying machine learning techniques to
+							NLP and Vision problems including question answering, fact extraction, road scene understanding, dynamic object detection etc. </li>
+						<li> Experience with a number of <strong>Machine Learning</strong> frameworks used in a number of research projects. Including standard Machine Learning and Scientific frameworks such <strong>sk-learn</strong> and <strong>MALLET</strong> as well as a handful of Deep Learning frameworks including <strong>DL4J</strong>, <strong>Theano</strong>, <strong>Keras</strong> and <strong>Tensorflow</strong>.
 						</li>
 						<li>
-							<strong>Highly skilled programmer</strong>. 
-							Experience in <strong>Java</strong> (and other JVM languages), 
-							<strong>Python</strong> and 
-							<strong>C++</strong> along with experience in 
-							<strong>Matlab</strong>, 
-							<strong>Ruby</strong>, 
-							<strong>Prolog</strong> and 
-							<strong>Scheme</strong> 
+							<strong>Highly skilled programmer</strong>.
+							Experience in <strong>Java</strong> and <strong>Scala</strong> (and other JVM languages),
+							<strong>Python</strong> and
+							<strong>C++</strong> along with experience in
+							<strong>Matlab</strong>,
+							<strong>Ruby</strong>,
+							<strong>Prolog</strong> and
+							<strong>Scheme</strong>
 						</li>
-						
+						<li>
+							<strong>BigData</strong> expert. Extensive experience working with <strong>MapReduce</strong> and specifically
+							its application in text analysis and multimedia information retrieval.
+							Experienced <strong>Spark</strong> and <strong>Hadoop</strong> programmer and administrator as well as some
+							experience in large scale distributed stream processing frameworks such as <strong>Storm</strong>.
+						</li>
 						<li><strong>Experienced web programmer</strong>. Confident in both server side programming (<strong>Grails</strong>, <strong>PHP</strong>, <strong>JSP</strong>, <strong>Pylons</strong> and <strong>SQL</strong> database administration) as well as client side web applications(<strong>HTML</strong>, <strong>javascript</strong>, <strong>CSS</strong> etc.)</li>
 						<li><strong>Confident unix administrator</strong>. Experience using <strong>shell tools</strong> to maintain research and production systems</li>
 					</ul>
@@ -387,8 +382,10 @@ ul.p_details>li>*{
 					<span class="doing">Positions of Responsibility</span>
 					</h3>
 					<ul>
-						<li>President of the Southampton University Circus Society, 2005</li>
+						<li>Lead Research Scientist of the Perception Team at FiveAI</li>
+						<li>Guild Leader of Evi's Guild of Scientists 2016</li>
 						<li>Co-organiser of the ISIS Postgraduate Conference 2008</li>
+						<li>President of the Southampton University Circus Society, 2005</li>
 					</ul>
 				</li>
 			</ul>
@@ -398,29 +395,28 @@ ul.p_details>li>*{
 			<p>Supervision of 3rd year undergraduate dissertations and 4th year individual research projects (IRP).</p>
 			<p>Teaching and Marking (since 2007) in 1st year computer science courses including Data Structures and Algorithms.</p>
 			<p>Attended Teaching for Research Staff introductory course (2011)</p>
-			<div class="page-break"></div>
+
 			<h2>Referees</h2>
-			<ul>
+
+			<p>Available upon request</p>
+			<!--ul>
 				<li>
-					<span class="referee_name">Professor Mahesan Niranjan</span>
-					<p class="referee_address">ECS, Faculty of Physical and Applied Sciences University of Southampton, Southampton, United Kingdom. SO17 1BJ Phone: +44 (0)23 8059 3021 . E-Mail: mn@ecs.soton.ac.uk </p>
-				</li>
-				<li>
-					<span class="referee_name">Professor Paul Lewis</span>
-					<p class="referee_address">ECS, Faculty of Physical and Applied Sciences University of Southampton, Southampton, United Kingdom. SO17 1BJ Phone: +44 (0)23 8059 3715 • E-Mail: phl@ecs.soton.ac.uk</p>
+					<span class="referee_name">Beth Holmes</span>
+					<p class="referee_address">Research Manager at Amazon, E-Mail: pholmes@amazon.co.uk</p>
 				</li>
 				<li>
 					<span class="referee_name">Professor Mark S. Nixon</span>
 					<p class="referee_address">ECS, Faculty of Physical and Applied Sciences University of Southampton, Southampton, United Kingdom. SO17 1BJ Phone: +44 (0)23 8059 3542 • E-Mail: msn@ecs.soton.ac.uk</p>
 				</li>
-			</ul>
-			
+			</ul-->
+			<div class="page-break"></div>
+
 			<h2>Publications</h2>
-			
+
 			<p id="publications">
 				${c.publications|n}
 			</p>
-			
+
 			</div>
 	</div>
 	<p class="noprint">(pdf/printing this page should produce good results)</p>

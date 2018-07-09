@@ -12,12 +12,7 @@ setup(
     author='',
     author_email='',
     url='',
-    install_requires=[
-		"Pylons>=0.9.7",
-		"SQLAlchemy==0.7.8",
-		"textile>=2.1.4",
-		"FormBuild==2.2.0",
-		"Elixir>=0.7.1","Routes>=1.12","PyRSS2Gen","pycurl","beautifulsoup4"],
+    install_requires=[],
     setup_requires=["PasteScript>=1.6.3"],
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,
@@ -28,7 +23,7 @@ setup(
     #        ('templates/**.mako', 'mako', {'input_encoding': 'utf-8'}),
     #        ('public/**', 'ignore', None)]},
     zip_safe=False,
-    paster_plugins=['PasteScript', 'Pylons'],
+    paster_plugins=[],
     entry_points="""
     [paste.app_factory]
     main = drsin.config.middleware:make_app
