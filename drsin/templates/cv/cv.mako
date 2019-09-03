@@ -79,6 +79,9 @@ p, li, li *
 {
 	line-height:140%;
 }
+li>ul>li>ul {
+	padding-left:2em;
+}
 h1{
 	margin-bottom:1em;
 	text-align:center;
@@ -177,15 +180,30 @@ ul.p_details>li>*{
 			<h2>Research</h2>
 			<h3>Interests</h3>
 			<p>
-				The development and application of novel approaches in Machine Learning, Sematnic Technologies and Computer Vision to facilitate the exploration and exploitation of Large Scale Multimedia Knowledge Corpa. This includes:
-				Deep Learning techniques to facilitate understanding and resolution of natural language utterances;
-				Multimedia retrieval through semantic and content based queries;
-				Automatic annotation of multimedia artifacts towards machine understanding of scenes and objects;
-				Human and Object recognition for applications in pervasive computing and surveillance.
+				I love developing and applying novel approaches in Computer Vision, Machine Learning and Semantic Technologies. I like to build Real Time Computer Vision applications and systems to explore and exploit Large Scale Multimedia Knowledge Corpa. I like working at the edge between research and application. I like to make computers see; eventually I want them to understand what they see. 
+			</p>
+			<p>
+				Systems I've worked on include:
+				<ul>
+				<li>
+				Autonomous Vehicle Perception Systems (Computer Vision and Machine Learning);
+				Understanding and Resolution of Natural Language question/answer utterances (NLP and Machine Learning);
+				</li>
+				<li>
+				Multimedia retrieval through semantic and content based queries (Multimedia and Computer Vision);
+				</li>
+				<li>
+				Automatic annotation of multimedia artefacts towards machine understanding of scenes and objects (Multimedia Analysis);
+				</li>
+				<li>
+				Human and Object recognition for applications in pervasive computing and surveillance (Biometrics).
+				</li>
+				</ul>
 			</p>
 
 			<h3>Achievements</h3>
 				<ul>
+					<li><em>FiveAI Scene Understanding Founding Scientist and Research Team Lead</em> - Lead Research Scientist tasked with applying Machine Learning and Computer Vision research to understanding road scenes including road layouts, road actors and their near future progress in the scene</li>
 					<li><em>Amazon Alexa Question Answering</em> - Lead Applied Scientist tasked with applying Machine Learning and NLP research to scaling and improving the Amazon Echo's semantic question answering feature. This included efforts in: question understanding; question entity linking and natural language fact extraction</li>
 					<li><em>Open Source multimedia library</em> - Primary developer on an open source multimedia processing toolkit (openimaj.org) and a content based image indexing framework (imageterrier.org) implementing several state of the art techniques in computer vision and machine learning research</li>
 					<li><em>Semantic Biometrics dataset</em> - Constructions of a unique semantically enriched biometrics dataset along with baseline algorithms for semantic biometric retrieval and identification</li>
@@ -211,6 +229,7 @@ ul.p_details>li>*{
 					    <li>Developed the first algorithms for the automatic semantic annotation of biometric data sources, demonstrating the ability of such approaches when applied to both existing and novel gait biometric datasets.</li>
 					</ul>
 				</li>
+				<div class="page-break"></div>
 				<li>
 					<h3>
 					<span class="doing">MEng Computer Science, First Class</span><br/>
@@ -244,15 +263,35 @@ ul.p_details>li>*{
 				</li>
 			</ul>
 
-			<div class="page-break"></div>
+			## 
 			<h2>Professional Experience</h2>
 			<ul>
+				<li>
+					<h3>
+					<span class="doing">Principal Scientist</span><br/>
+					<span class="location">FiveAI</span>
+					<span class="location_dates">
+					<span class="dates">2018 - present</span></span>
+					</h3>
+					<ul>
+						<li>Lead the Scene Understanding @ FiveAI</li>
+						<li>SU owned a number of machine learning and computer vision systems for the understanding of:
+						<ul>
+							<li>road surface (semantic segmentation)</li>
+							<li>detection of dynamic actors on the road scene (FasterRCNN object detection) and </li>
+							<li>tracking of the scene over short time periods (Unscented Kalman Filter Late Fusion)</li>
+							</ul></li>
+						<li>Engaged in both strategic and tactical leadership of a mixed team of 14 research engineers and research scientists as well as a varying number of interns</li>
+						<li>Lead a number of cross office research projects covering topics including: hierarchical classification in neural networks, uncertainty in neural networks, direct to 3D object detection methods applied to stereo depth
+						</li> 
+					</ul>
+				</li>
 				<li>
 					<h3>
 					<span class="doing">Research Scientist</span><br/>
 					<span class="location">FiveAI</span>
 					<span class="location_dates">
-					<span class="dates">2017 - Present</span></span>
+					<span class="dates">2017 - 2018</span></span>
 					</h3>
 					<ul>
 						<li>Research Scientist working on various Perception problems for FiveAI's autonomous vehicle</li>
@@ -344,7 +383,7 @@ ul.p_details>li>*{
 				</li>
 
 			</ul>
-			<div class="page-break"></div>
+			## <div class="page-break"></div>
 			<h2>Skills</h2>
 			<ul>
 				<li>
@@ -356,6 +395,9 @@ ul.p_details>li>*{
 						<li> <b>Computer Vision</b>, <b>Deep Learning</b> and <b>Machine Learning</b> expert with experience in applying machine learning techniques to
 							NLP and Vision problems including question answering, fact extraction, road scene understanding, dynamic object detection etc. </li>
 						<li> Experience with a number of <strong>Machine Learning</strong> frameworks used in a number of research projects. Including standard Machine Learning and Scientific frameworks such <strong>sk-learn</strong> and <strong>MALLET</strong> as well as a handful of Deep Learning frameworks including <strong>DL4J</strong>, <strong>Theano</strong>, <strong>Keras</strong> and <strong>Tensorflow</strong>.
+						</li>
+						<li>
+						Experience with <b>applied robotics</b> including 3 years experience with ROS (kinetic kame) applied to autonomous driving
 						</li>
 						<li>
 							<strong>Highly skilled programmer</strong>.
@@ -382,13 +424,15 @@ ul.p_details>li>*{
 					<span class="doing">Positions of Responsibility</span>
 					</h3>
 					<ul>
-						<li>Lead Research Scientist of the Perception Team at FiveAI</li>
+						<li>Lead Research Scientist of the Scene Understanding Team at FiveAI</li>
+						<li>Line Management Duties for 14 research scientists and research eningeers</li>
 						<li>Guild Leader of Evi's Guild of Scientists 2016</li>
 						<li>Co-organiser of the ISIS Postgraduate Conference 2008</li>
 						<li>President of the Southampton University Circus Society, 2005</li>
 					</ul>
 				</li>
 			</ul>
+			<div class="page-break"></div>
 			<h2>Teaching Experience</h2>
 			<p>“NoSQL Database” lecture for the 3rd year Advanced Databases course, 2013. </p>
 			<p>Given guest lectures to 3rd year undergraduate students on the “Multimedia systems” course between 2009 and 2013. </p>
@@ -409,13 +453,968 @@ ul.p_details>li>*{
 					<p class="referee_address">ECS, Faculty of Physical and Applied Sciences University of Southampton, Southampton, United Kingdom. SO17 1BJ Phone: +44 (0)23 8059 3542 • E-Mail: msn@ecs.soton.ac.uk</p>
 				</li>
 			</ul-->
-			<div class="page-break"></div>
+			## <div class="page-break"></div>
 
-			<h2>Publications</h2>
+			<h2>
+                        Selected Publications
+                    </h2>
+                    <p id="publications">
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Kaltwang, Sebastian 
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Redford, John
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Blake, Andrew
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2018)
+                            </span>
+                            <span class="title">
+                                <a href="https://arxiv.org/abs/1808.04745">
+                                    Imagining the Unseen: Learning a Distribution over Incomplete Images with Dense Latent Trees
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    arXiv preprint arXiv:1808.04745
+                                </em>
+                            </span>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Roberts, Brook
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Kaltwang, Sebastian
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina 
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Pender-Bare, Mark
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Tertikas, Konstantinos
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Redford, John
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2018)
+                            </span>
+                            <span class="title">
+                                <a href="https://arxiv.org/abs/1808.04745">
+                                    A Dataset for Lane Instance Segmentation in Urban Environments
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    Proceedings of the European Conference on Computer Vision (ECCV)
+                                </em>
+                            </span>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Davies, Jamie
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Hare, Jonathon
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Preston, John
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Jain, Neha
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Dupplaw, David
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Lewis, Paul H.
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2013)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/358836/">
+                                    Identifying the Geographic Location of an Image with a Multimodal Probability Density Function.
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    MediaEval 2013 / Placing: Geo-coordinate Prediction for Social Multimedia
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Barcelona, ES
+                                </span>
+                                ,
+                            </em>
+                            (
+                            <span class="ispublished">
+                                In Press
+                            </span>
+                            ).
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Hare, Jonathon
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Acosta, Maribel
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Weston, Anna
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Simperl, E.
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Dupplaw, David
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Lewis, Paul H.
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2013)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/358834/">
+                                    An investigation of techniques that aim to improve the quality of labels provided by the crowd.
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    MediaEval 2013 / Crowdsourcing for Social Multimedia
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Barcelona, ES
+                                </span>
+                                ,
+                            </em>
+                            (
+                            <span class="ispublished">
+                                In Press
+                            </span>
+                            ).
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Hare, Jonathon
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Dupplaw, David
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2013)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/354595/">
+                                    OpenIMAJ – Intelligent Multimedia Analysis in Java.
+                                </a>
+                            </span>
+                            <span class="publication">
+                                <em>
+                                    ACM SIGMM Records
+                                </em>
+                            </span>
+                            <span class="ispublished">
+                                (In Press).
+                            </span>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Hare, Jonathon
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Dupplaw, David
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Lewis, Paul H.
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2013)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/352460/">
+                                    Twitter's visual pulse.
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    the 3rd ACM conference on International conference on multimedia retrieval
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Dallas, US
+                                </span>
+                                ,
+                            </em>
+                            <span class="pages">
+                                2pp
+                            </span>
+                            ,
+                            <span class="pagerange">
+                                297-298
+                            </span>
+                            .
+                            <span class="doi">
+                                (
+                                <a href="http://dx.doi.org/10.1145/2461466.2461514">
+                                    doi:10.1145/2461466.2461514
+                                </a>
+                                )
+                            </span>
+                            .
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Jain, Neha
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Hare, Jonathon
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Preston, John
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Davies, Jamie
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Dupplaw, David
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Lewis, Paul H.
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2013)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/358835/">
+                                    Experiments in Diversifying Flickr Result Sets.
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    MediaEval 2013 / Retrieving Diverse Social Images
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Barcelona, ES
+                                </span>
+                                ,
+                            </em>
+                            (
+                            <span class="ispublished">
+                                In Press
+                            </span>
+                            ).
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Preston, John
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Hare, Jonathon
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Davies, Jamie
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Jain, Neha
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Dupplaw, David
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Lewis, Paul H.
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2013)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/358838/">
+                                    A Unified, Modular and Multimodal Approach to Search and Hyperlinking Video.
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    MediaEval 2013 / Search and Hyperlinking of Television Content
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Barcelona, ES
+                                </span>
+                                ,
+                            </em>
+                            (
+                            <span class="ispublished">
+                                In Press
+                            </span>
+                            ).
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Reid, Daniel
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Chen, Cunjian
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Nixon, Mark
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Ross, Arun
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2013)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/342219/">
+                                    Soft biometrics for surveillance: an overview.
+                                </a>
+                            </span>
+                            In,
+                            <span class="book_title">
+                                <em>
+                                    Machine Learning: Theory and Applications.
+                                </em>
+                            </span>
+                            ,
+                            <span class="publisher">
+                                Elsevier
+                            </span>
+                            <span class="pagerange">
+                                , 327-352
+                            </span>
+                            .
 
-			<p id="publications">
-				${c.publications|n}
-			</p>
+(
+                            <span class="series_name">
+                                Handbook of Statistics
+                            </span>
+                            ,
+                            <span class="series_number">
+                                31
+                            </span>
+                            ).
+                            <span class="doi">
+                                (http://dx.doi.org/10.1016/B978-0-444-53859-8.00013-8)
+                            </span>
+                            .
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Hare, Jonathon
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Dupplaw, David
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Niranjan, Mahesan
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Gibbins, Nicholas
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Lewis, Paul H.
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Davies, Jamie
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Jain, Neha
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Preston, John
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2013)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/358837/">
+                                    Social Event Detection via sparse multi-modal feature selection and incremental density based clustering.
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    MediaEval 2013 / Social Event Detection for Social Multimedia
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Barcelona, ES
+                                </span>
+                                ,
+                            </em>
+                            (
+                            <span class="ispublished">
+                                In Press
+                            </span>
+                            ).
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Hare, Jonathon
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Dupplaw, David
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Lewis, Paul H.
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2012)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/339177/">
+                                    ImageTerrier: an extensible platform for scalable high-performance image retrieval.
+                                </a>
+                            </span>
+                            At
+                            <span class="event_title">
+                                <em>
+                                    ACM International Conference on Multimedia Retrieval (ICMR'12)
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Hong Kong, HK
+                                </span>
+                                ,
+                            </em>
+                            <em>
+                                <span class="date_range">
+                                    05 - 08  Jun 2012.
+                                </span>
+                            </em>
+                            <span class="pages">
+                                8pp
+                            </span>
+                            .
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Hare, Jonathon S.
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Lewis, Paul H.
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2012)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/344243/">
+                                    Practical scalable image analysis and indexing using Hadoop.
+                                </a>
+                            </span>
+                            <span class="publication">
+                                <em>
+                                    Multimedia Tools and Applications
+                                </em>
+                            </span>
+                            ,
+                            <span class="pagerange">
+                                1-34
+                            </span>
+                            .
+                            <span class="doi">
+                                (
+                                <a href="http://dx.doi.org/10.1007/s11042-012-1256-0">
+                                    doi:10.1007/s11042-012-1256-0
+                                </a>
+                                ).
+                            </span>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Packer, Heather S.
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Hare, Jonathon S.
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Lewis, Paul
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2012)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/346891/">
+                                    Semantically Tagging Images of Landmarks.
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    Knowledge extraction and consolidation from social media (KECSM) 2012 Workshop
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Boston, MA, USA
+                                </span>
+                                ,
+                            </em>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Packer, Heather S.
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Hare, Jonathon S.
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Gibbins, Nicholas
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Lewis, Paul
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2012)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/346892/">
+                                    Event Detection using Twitter and Structured Semantic Query Expansion.
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    CrowdSens 2012 Workshop
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Maui, HI, USA
+                                </span>
+                                ,
+                            </em>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    Preotiuc-Pietro, Daniel
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Samangooei, Sina
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Cohn, Trevor
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    Gibbins, Nicholas
+                                </span>
+                                and
+                                <span class="person_name">
+                                    Niranjan, Mahesan
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2012)
+                            </span>
+                            <span class="title">
+                                <a href="http://eprints.soton.ac.uk/340056/">
+                                    Trendminer: an architecture for real time analysis of social media text.
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                    6th International AAAI Conference on Weblogs and Social Media (ICWSM-12)
+                                </em>
+                            </span>
+                            <em>
+                                ,
+                                <span class="event_location">
+                                    Dublin, IE
+                                </span>
+                                ,
+                            </em>
+                            <em>
+                                <span class="date_range">
+                                    05 - 07  Jun 2012.
+                                </span>
+                            </em>
+                            <span class="pages">
+                                5pp
+                            </span>
+                            .
+                        </span>
+                        <p>
+                            <span class="citation">
+                                <span class="creators">
+                                    <span class="person_name">
+                                        Hare, Jonathan
+                                    </span>
+                                    ,
+                                    <span class="person_name">
+                                        Samangooei, Sina
+                                    </span>
+                                    and
+                                    <span class="person_name">
+                                        Dupplaw, David
+                                    </span>
+                                </span>
+                                <span class="date">
+                                    (2011)
+                                </span>
+                                <span class="title">
+                                    <a href="http://eprints.soton.ac.uk/273040/">
+                                        OpenIMAJ and ImageTerrier: Java Libraries and Tools for Scalable Multimedia Analysis and Indexing of Images.
+                                    </a>
+                                </span>
+                                At
+                                <span class="event_title">
+                                    <em>
+                                        ACM Multimedia 2011
+                                    </em>
+                                </span>
+                                <em>
+                                    ,
+                                    <span class="event_location">
+                                        Scottsdale, Arizona, USA
+                                    </span>
+                                    ,
+                                </em>
+                                <em>
+                                    <span class="date_range">
+                                        28 Nov - 01 Dec  2011.
+                                    </span>
+                                </em>
+                                <span class="publisher">
+                                    ACM
+                                </span>
+                                ,
+                                <span class="pagerange">
+                                    691-694
+                                </span>
+                                .
+                            </span>
+                        </p>
+                        <p>
+                            <span class="citation">
+                                <span class="creators">
+                                    <span class="person_name">
+                                        Hare, Jonathon
+                                    </span>
+                                    ,
+                                    <span class="person_name">
+                                        Samangooei, Sina
+                                    </span>
+                                    and
+                                    <span class="person_name">
+                                        Lewis, Paul
+                                    </span>
+                                </span>
+                                <span class="date">
+                                    (2011)
+                                </span>
+                                <span class="title">
+                                    <a href="http://eprints.soton.ac.uk/272237/">
+                                        Efficient clustering and quantisation of SIFT features: Exploiting characteristics of the SIFT descriptor and interest region detectors under image inversion.
+                                    </a>
+                                </span>
+                                At
+                                <span class="event_title">
+                                    <em>
+                                        The ACM International Conference on Multimedia Retrieval (ICMR 2011)
+                                    </em>
+                                </span>
+                                <em>
+                                    ,
+                                    <span class="event_location">
+                                        Trento, Italy
+                                    </span>
+                                    ,
+                                </em>
+                                <em>
+                                    <span class="date_range">
+                                        17 - 20  Apr 2011.
+                                    </span>
+                                </em>
+                                <span class="publisher">
+                                    ACM Press
+                                </span>
+                                .
+                            </span>
+                        </p>
+                        <p>
+                            <span class="citation">
+                                <span class="creators">
+                                    <span class="person_name">
+                                        Samangooei, Sina
+                                    </span>
+                                </span>
+                                <span class="date">
+                                    (2010)
+                                </span>
+                                <span class="title">
+                                    <a href="http://eprints.soton.ac.uk/153901/">
+                                        Semantic biometrics.
+                                    </a>
+                                </span>
+                                <em>
+                                    <span class="institution">
+                                        University of Southampton
+                                    </span>
+                                    ,
+                                    <span class="department">
+                                        School of Electronics and Computer Science
+                                    </span>
+                                    ,
+                                    <span class="thesis_type">
+                                        Doctoral Thesis
+                                    </span>
+                                </em>
+                                ,
+                                <span class="pages">
+                                    138
+                                </span>
+                                pp.
+                            </span>
+                        </p>
+                        <p>
+                            <span class="citation">
+                                <span class="creators">
+                                    <span class="person_name">
+                                        Hare, Jonathan
+                                    </span>
+                                    ,
+                                    <span class="person_name">
+                                        Samangooei, Sina
+                                    </span>
+                                    ,
+                                    <span class="person_name">
+                                        Lewis, Paul
+                                    </span>
+                                    and
+                                    <span class="person_name">
+                                        Nixon, Mark
+                                    </span>
+                                </span>
+                                <span class="date">
+                                    (2008)
+                                </span>
+                                <span class="title">
+                                    <a href="http://eprints.soton.ac.uk/266160/">
+                                        Semantic spaces revisited: investigating the performance of auto-annotation and semantic retrieval using semantic spaces.
+                                    </a>
+                                </span>
+                                At
+                                <span class="event_title">
+                                    <em>
+                                        CIVR '08: The 2008 international conference on Content-based image and video retrieval
+                                    </em>
+                                </span>
+                                <em>
+                                    ,
+                                    <span class="event_location">
+                                        Niagara Falls, Ontario, Canada
+                                    </span>
+                                    ,
+                                </em>
+                                <em>
+                                    <span class="date_range">
+                                        07 - 09  Jul 2008.
+                                    </span>
+                                </em>
+                                <span class="publisher">
+                                    ACM
+                                </span>
+                                ,
+                                <span class="pagerange">
+                                    359-368
+                                </span>
+                                .
+                            </span>
+                        </p>
+                    </p>
 
 			</div>
 	</div>
