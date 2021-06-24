@@ -48,6 +48,17 @@ h1{
 	margin-bottom:1em;*/
 	display:none;
 }
+a:link {
+    color: blue;
+}
+/* A link that has been visited */
+a:visited {
+    color: blue;
+}
+/* A link that is hovered on */
+a:hover {
+    color: blue;
+}
 
 </style>
 <style type="text/css" media="print">
@@ -180,13 +191,15 @@ ul.p_details>li>*{
 			<h2>Research</h2>
 			<h3>Interests</h3>
 			<p>
-				I love developing and applying novel approaches in Computer Vision, Machine Learning and Semantic Technologies. I like to build Real Time Computer Vision applications and systems to explore and exploit Large Scale Multimedia Knowledge Corpa. I like working at the edge between research and application. I like to make computers see; eventually I want them to understand what they see. 
+				I love developing and applying novel approaches in Computer Vision, Machine Learning and Semantic Technologies. I like to build Real Time Computer Vision applications and systems to explore and exploit Large Scale Multimedia Knowledge Corpa. I like working at the edge between research and application. I like to make computers see; eventually, I want them to understand what they see. 
 			</p>
 			<p>
 				Systems I've worked on include:
 				<ul>
 				<li>
 				Autonomous Vehicle Perception Systems (Computer Vision and Machine Learning);
+				</li>
+				<li>
 				Understanding and Resolution of Natural Language question/answer utterances (NLP and Machine Learning);
 				</li>
 				<li>
@@ -203,7 +216,7 @@ ul.p_details>li>*{
 
 			<h3>Achievements</h3>
 				<ul>
-					<li><em>FiveAI Scene Understanding Founding Scientist and Research Team Lead</em> - Lead Research Scientist tasked with applying Machine Learning and Computer Vision research to understanding road scenes including road layouts, road actors and their near future progress in the scene</li>
+					<li><em>FiveAI Scene Understanding Founding Scientist and Director Research Science</em> - Lead Research Scientist tasked with applying Machine Learning and Computer Vision research to understanding road scenes including road layouts, road actors and their near future progress in the scene</li>
 					<li><em>Amazon Alexa Question Answering</em> - Lead Applied Scientist tasked with applying Machine Learning and NLP research to scaling and improving the Amazon Echo's semantic question answering feature. This included efforts in: question understanding; question entity linking and natural language fact extraction</li>
 					<li><em>Open Source multimedia library</em> - Primary developer on an open source multimedia processing toolkit (openimaj.org) and a content based image indexing framework (imageterrier.org) implementing several state of the art techniques in computer vision and machine learning research</li>
 					<li><em>Semantic Biometrics dataset</em> - Constructions of a unique semantically enriched biometrics dataset along with baseline algorithms for semantic biometric retrieval and identification</li>
@@ -268,13 +281,59 @@ ul.p_details>li>*{
 			<ul>
 				<li>
 					<h3>
+					<span class="doing">Senior Research Engineer</span><br/>
+					<span class="location">DeepMind</span>
+					<span class="location_dates">
+					<span class="dates">2021 - present</span></span>
+					</h3>
+					<ul>
+						<li>Worked as a Research Engineer in the DeepMind Applied Incubation team</li>
+						<li>Initial focus on multimedia understanding projects including:
+						<ul>
+							<li>
+								Work with large scale language model with multimodal and visual understanding capabilities 
+							</li>
+							<li>Delivering incubation prototypes to partner commercial teams</li>
+						</ul>
+						<li>Team Lead of multimedia subteam in Applied Incubation</li>
+					</ul>
+				</li>
+				<li>
+					<h3>
+					<span class="doing">Director Research Science</span><br/>
+					<span class="location">FiveAI</span>
+					<span class="location_dates">
+					<span class="dates">2019 - 2021</span></span>
+					</h3>
+					<ul>
+						<li>Directed Applied Science and Research activities of the High Performace Perception (HiPP) Group @ FiveAI</li>
+						<li>Continue to lead Scene Understanding who owned a number of computer vision products for FiveAI's online and cloud-based offline platforms including:
+						<ul>
+							<li>detection of vehicles and pedestrians in road scenes (various offline and online modern ML-based monocular, stereo vision, lidar and radar object detectors)</li>
+							<li>road surface understanding (semantic segmentation)</li>
+							<li>tracking of the scene over short time periods (Unscented Kalman Filter Late Fusion)</li>
+							</ul></li>
+						<li>
+						Directed applied science direction across HiPP group including:
+						<ul>
+							<li>Error characterisation models for high-throughput offline simulation</li>
+							<li>Geometry based offline detection (DeepSDF based model fitting, ICP based pointcloud adjustment etc.)</li>
+							<li>Offline and Online Fusion components</li>
+							</ul></li>
+						</li>
+						<li>Coordinated cross-company applied research focus between efforts the HiPP team with online platform, prediction, planning and safety business units. 
+						</li> 
+					</ul>
+				</li>
+				<li>
+					<h3>
 					<span class="doing">Principal Scientist</span><br/>
 					<span class="location">FiveAI</span>
 					<span class="location_dates">
-					<span class="dates">2018 - present</span></span>
+					<span class="dates">2018 - 2019</span></span>
 					</h3>
 					<ul>
-						<li>Lead the Scene Understanding @ FiveAI</li>
+						<li>Led the Scene Understanding @ FiveAI</li>
 						<li>SU owned a number of machine learning and computer vision systems for the understanding of:
 						<ul>
 							<li>road surface (semantic segmentation)</li>
@@ -282,10 +341,11 @@ ul.p_details>li>*{
 							<li>tracking of the scene over short time periods (Unscented Kalman Filter Late Fusion)</li>
 							</ul></li>
 						<li>Engaged in both strategic and tactical leadership of a mixed team of 14 research engineers and research scientists as well as a varying number of interns</li>
-						<li>Lead a number of cross office research projects covering topics including: hierarchical classification in neural networks, uncertainty in neural networks, direct to 3D object detection methods applied to stereo depth
+						<li>Led a number of cross-component research projects covering topics including: hierarchical classification in neural networks, uncertainty in neural networks, direct to 3D object detection methods applied to stereo depth
 						</li> 
 					</ul>
 				</li>
+				<div class="page-break"></div>
 				<li>
 					<h3>
 					<span class="doing">Research Scientist</span><br/>
@@ -295,8 +355,8 @@ ul.p_details>li>*{
 					</h3>
 					<ul>
 						<li>Research Scientist working on various Perception problems for FiveAI's autonomous vehicle</li>
-						<li>Lead work on static scene perception, built a state of the art Deep Learning system for understanding road and lane layouts of busy road scenes</li>
-						<li>Lead a team of scientists working on a range of perception problems from dynamic object detection to traffic light understanding working on detection and tracking problems</li>
+						<li>Led work on static scene perception, built a state of the art Deep Learning system for understanding road and lane layouts of busy road scenes</li>
+						<li>Led a team of scientists working on a range of perception problems from dynamic object detection to traffic light understanding working on detection and tracking problems</li>
 						<li>Organised a number of research activities across the company include weekly reading, mentoring sessions for junior team members and organised FiveAI's research demonstrations for the 2018 series B pitch</li>
 					</ul>
 				</li>
@@ -383,7 +443,7 @@ ul.p_details>li>*{
 				</li>
 
 			</ul>
-			## <div class="page-break"></div>
+			<div class="page-break"></div>
 			<h2>Skills</h2>
 			<ul>
 				<li>
@@ -424,15 +484,15 @@ ul.p_details>li>*{
 					<span class="doing">Positions of Responsibility</span>
 					</h3>
 					<ul>
-						<li>Lead Research Scientist of the Scene Understanding Team at FiveAI</li>
+						<li>Director Applied Research, Scene Understanding at FiveAI</li>
 						<li>Line Management Duties for 14 research scientists and research eningeers</li>
-						<li>Guild Leader of Evi's Guild of Scientists 2016</li>
-						<li>Co-organiser of the ISIS Postgraduate Conference 2008</li>
+						<!--li>Guild Leader of Evi's Guild of Scientists 2016</li>
+						<li>Co-organiser of the ISIS Postgraduate Conference 2008</li-->
 						<li>President of the Southampton University Circus Society, 2005</li>
 					</ul>
 				</li>
 			</ul>
-			<div class="page-break"></div>
+			
 			<h2>Teaching Experience</h2>
 			<p>“NoSQL Database” lecture for the 3rd year Advanced Databases course, 2013. </p>
 			<p>Given guest lectures to 3rd year undergraduate students on the “Multimedia systems” course between 2009 and 2013. </p>
@@ -443,6 +503,7 @@ ul.p_details>li>*{
 			<h2>Referees</h2>
 
 			<p>Available upon request</p>
+			<div class="page-break"></div>
 			<!--ul>
 				<li>
 					<span class="referee_name">Beth Holmes</span>
@@ -458,7 +519,46 @@ ul.p_details>li>*{
 			<h2>
                         Selected Publications
                     </h2>
-                    <p id="publications">
+					<p id="publications">
+                        <span class="citation">
+                            <span class="creators">
+                                <span class="person_name">
+                                    L Bertinetto
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    R Mueller
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    K Tertikas
+                                </span>
+                                ,
+                                <span class="person_name">
+                                    S Samangooei
+                                </span>
+                                and
+                                <span class="person_name">
+                                    N A Lord
+                                </span>
+                            </span>
+                            <span class="date">
+                                (2018)
+                            </span>
+                            <span class="title">
+                                <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Bertinetto_Making_Better_Mistakes_Leveraging_Class_Hierarchies_With_Deep_Networks_CVPR_2020_paper.html">
+                                    Making Better Mistakes: Leveraging Class Hierarchies with Deep Networks
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020
+                                </em>
+                            </span>
+                        </span>
+                    </p>
+                    <p>
                         <span class="citation">
                             <span class="creators">
                                 <span class="person_name">
