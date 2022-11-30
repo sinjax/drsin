@@ -8,7 +8,9 @@ RUN pip install FormBuild==2.2.0
 RUN pip install Elixir==0.7.1 
 RUN pip install "Routes==1.12" 
 RUN pip install "PyRSS2Gen" 
-RUN pip install PasteScript
+RUN pip install PasteScript==1.7.5
 RUN pip install webob==1.0.8
+RUN pip install Paste==1.7.5
+RUN pip install PasteDeploy==1.5.2
 RUN pip install pycurl
 RUN pip install BeautifulSoup
