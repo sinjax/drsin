@@ -281,7 +281,7 @@ ul.p_details>li>*{
 			<ul>
 				<li>
 					<h3>
-					<span class="doing">Senior Research Engineer</span><br/>
+					<span class="doing">Staff Research Engineer</span><br/>
 					<span class="location">DeepMind</span>
 					<span class="location_dates">
 					<span class="dates">2021 - present</span></span>
@@ -296,6 +296,7 @@ ul.p_details>li>*{
 							<li>Delivering incubation prototypes to partner commercial teams</li>
 						</ul>
 						<li>Team Lead of multimedia subteam in Applied Incubation</li>
+						
 					</ul>
 				</li>
 				<li>
@@ -520,7 +521,26 @@ ul.p_details>li>*{
                         Selected Publications
                     </h2>
 					<p id="publications">
-                        <span class="citation">
+                        <p><span class="citation">
+			    <span class="creators">
+			    Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch, Katie Millican, Malcolm Reynolds, Roman Ring, Eliza Rutherford, Serkan Cabi, Tengda Han, Zhitao Gong, Sina Samangooei, Marianne Monteiro, Jacob Menick, Sebastian Borgeaud, Andrew Brock, Aida Nematzadeh, Sahand Sharifzadeh, Mikolaj Binkowski, Ricardo Barreira, Oriol Vinyals, Andrew Zisserman, Karen Simonyan
+			    </span>
+			    <span class="date">
+                                (2022)
+                            </span>
+                            <span class="title">
+                                <a href="Flamingo: a Visual Language Model for Few-Shot Learning">
+                                    Flamingo: a Visual Language Model for Few-Shot Learning 
+                                </a>
+                            </span>
+                            In,
+                            <span class="event_title">
+                                <em>
+                                36th Conference on Neural Information Processing Systems (NeurIPS) 2022
+                                </em>
+                            </span>
+			</span></p><p>
+			<span class="citation">
                             <span class="creators">
                                 <span class="person_name">
                                     L Bertinetto
